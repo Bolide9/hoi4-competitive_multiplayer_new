@@ -1,0 +1,43 @@
+state= {
+	id=132
+	name="STATE_132" # Lancashire
+	manpower = 5770454
+	
+	state_category = town
+	
+	resources={
+		steel=31 # was: 56
+		aluminium=2 # was: 4
+	}
+
+	history= {
+		
+		victory_points = {
+			6384 30 
+		}
+		victory_points = {
+			6318 5 
+		}
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+			
+			6384 = {
+				
+			}
+		}
+		add_core_of = ENG
+		1939.1.1 = {
+			buildings = {
+				
+				
+			}
+		}
+	}
+	provinces= {
+		3205 6318 6335 6384
+ 	}
+}

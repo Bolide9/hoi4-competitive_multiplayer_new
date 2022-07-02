@@ -1,0 +1,42 @@
+
+state={
+	id=131
+	name="STATE_131"
+	manpower = 2128860
+	
+	state_category = town
+	resources={
+		steel=38 # was: 60
+		aluminium=5 # was: 8
+	}
+
+	history={
+		
+		victory_points = {
+			351 10 
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+			351 = {
+				
+			}
+			3311 = {
+				
+			}
+		}
+		add_core_of = ENG
+		1939.1.1 = {
+			buildings = {
+				
+				
+			}
+		}
+	}
+
+	provinces={
+		219 351 3311 6399 9285 11270 11299 11332 
+	}
+}

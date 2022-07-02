@@ -1,0 +1,21 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		914 13234 13235
+	}
+	manpower = 1000000
+	
+	state_category = town
+
+	history= {
+		owner = GER
+		victory_points = {
+			914 3
+		}
+		buildings = {
+			infrastructure = 6
+		}
+
+	}
+}

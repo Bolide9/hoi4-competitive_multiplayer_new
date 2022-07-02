@@ -1,0 +1,43 @@
+
+state={
+	id=29
+	name="STATE_29"
+	manpower = 2976400
+	
+	state_category = town
+	resources={
+		steel=42 # was: 112
+		aluminium=8 # was: 22
+	}
+
+	history={
+		
+		victory_points = {
+			575 5
+		}
+		victory_points = {
+			11483 10
+		}
+		victory_points = {
+			11548 15
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			575 = {
+				
+			}
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				
+			}
+		}
+	}
+
+	provinces={
+		575 3476 3536 6504 9500 11483 11548 11606 
+	}
+}

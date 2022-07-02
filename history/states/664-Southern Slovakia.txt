@@ -1,0 +1,33 @@
+state={
+	id=664
+	name="STATE_664"
+	manpower = 1000000
+
+	
+	state_category = town
+	
+	history={
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+		}
+		victory_points = {
+			6573 1 
+		}
+		owner = GER add_core_of = GER
+		add_claim_by = HUN
+
+		1939.3.14 = {
+			
+			controller = HUN
+			remove_claim_by = HUN
+			owner = GER add_core_of = GER
+			
+		}
+	}
+	
+	provinces={
+		3565 3716 6561 6573 9537 11679 
+	}
+}

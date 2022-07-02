@@ -1,0 +1,49 @@
+
+state={
+	id=64
+	name="STATE_64"
+	manpower = 1000000
+	buildings_max_level_factor = 1
+
+	state_category = town
+	resources = {
+	steel = 40
+	aluminium = 20
+	chromium = 20
+	tungsten = 20
+	oil = 10
+	rubber = 10
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6521 50 
+		}
+		victory_points = {
+			3522 5 
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+			
+
+		}
+		add_core_of = GER
+
+		1939.1.1 = {
+			buildings = {
+				
+				
+				
+				
+			}
+		}
+	}
+
+	provinces={
+		375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+	}
+}

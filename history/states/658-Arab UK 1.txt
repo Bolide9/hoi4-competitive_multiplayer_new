@@ -1,0 +1,31 @@
+
+state={
+	id=658
+	name="STATE_658"
+	manpower = 170200
+	resources={
+		oil=5 # was: 6
+	}
+	
+	state_category = town
+
+
+	history={
+		add_core_of = UAE
+		
+		victory_points = {
+			7960 1 
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			7960 = {
+				
+			}
+		}
+
+	}
+
+	provinces={
+		2048 7960 8108 10904 
+	}
+}

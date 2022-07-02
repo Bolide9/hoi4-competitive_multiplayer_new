@@ -1,0 +1,29 @@
+state={
+	id=71
+	name="STATE_71"
+	manpower = 1000000
+	
+	state_category = town
+	
+	history={
+		victory_points = {
+			3581 3
+		}
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+		}
+		owner = GER add_core_of = GER
+
+		1939.3.14 = {
+			owner = SLO
+			controller = SLO
+			
+		}
+	}
+
+	provinces={
+		555 581 3550 3581 6586 6604 11554 
+	}
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=804
+	name="STATE_804"
+	manpower =1000000
+	
+	
+	state_category = town
+
+
+	history={
+		owner = GER
+		victory_points = {
+			9894 3
+		}
+		buildings = {
+			infrastructure = 6
+		}
+	}
+
+	provinces={
+		953 6942 9894 11845 
+	}
+}

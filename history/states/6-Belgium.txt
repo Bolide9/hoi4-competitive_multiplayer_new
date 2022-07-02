@@ -1,0 +1,44 @@
+
+state={
+	id=6
+	name="STATE_6" # Flanders
+	manpower = 1000000
+	resources = {
+	steel = 40
+	aluminium = 20
+	chromium = 20
+	tungsten = 20
+	oil = 10
+	rubber = 10
+	}
+	
+	state_category = town
+
+	history={
+				owner = GER
+		add_core_of = GER
+		victory_points = { 516 30 }
+		victory_points = { 6598 30 }
+		victory_points = { 6560 5 }
+		victory_points = { 13068 1 }
+		victory_points = { 3576 1 }
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+			6560 = {
+				
+			}
+			6598 = {
+				
+			}
+		}
+		
+		
+	}
+
+	provinces={
+		516 3576 6446 6560 6598 9574 11419 13068 
+	}
+}

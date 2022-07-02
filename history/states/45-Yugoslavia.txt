@@ -1,0 +1,22 @@
+state={
+	id=45
+	name="STATE_45"
+
+	history={
+		victory_points = { 619 3 }
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+
+		}
+		owner = GER add_core_of = GER
+		
+
+	}
+
+	provinces={
+		619 3617 3623 9608 9621
+	}
+	manpower=1000000
+	state_category=town
+}

@@ -1,0 +1,48 @@
+
+state={
+	id=14
+	name="STATE_14"
+	manpower = 2396600
+	
+	state_category = town
+
+	history={
+		
+		victory_points = {
+			3552 20
+		}
+		victory_points = {
+			6536 5
+		}
+		victory_points = {
+			9495 1
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			3552 = {
+				
+				
+			}
+			6536 = {
+				
+				
+			}
+			9510 = {
+				
+			}
+		}
+		add_core_of = FRA
+		add_core_of = BRI
+		1939.1.1 = {
+			buildings = {
+				
+			}
+		}
+	}
+
+	provinces={
+		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 51600
+	state_category = town
+
+	history={
+		add_core_of = QAT
+		
+		victory_points = {
+			8051 1
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			8051 = {
+				
+			}
+		}
+	}
+
+	provinces={
+		8051
+	}
+}

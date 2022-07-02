@@ -1,0 +1,24 @@
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=21372
+	
+	state_category = town
+	history={
+		
+		victory_points = { 4135 10 }
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			4135 = {
+				
+				
+			}
+		}
+		add_claim_by = SPR
+	}
+	provinces={
+		4135
+	}
+}

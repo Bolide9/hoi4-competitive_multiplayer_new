@@ -1,0 +1,23 @@
+
+state={
+	id=642
+	name="STATE_642"
+	manpower=24
+	
+	state_category = town
+
+	history={
+		
+		add_core_of = HAW
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			13050 = {
+				
+			}
+		}
+	}
+
+	provinces={
+		13050 
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
+	
+	state_category = town
+
+	history={
+		add_core_of = BAH
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			10440 = {
+				
+			}
+			1513 = {
+				
+			}
+		}
+	}
+	
+	provinces={
+		1513 10440 
+	}
+}

@@ -1,0 +1,8 @@
+﻿units= {
+
+}
+	
+
+instant_effect = {
+
+}

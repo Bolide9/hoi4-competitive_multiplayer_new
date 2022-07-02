@@ -1,0 +1,35 @@
+
+state={
+	id=639
+	name="STATE_639"
+	manpower=1035
+	state_category = small_island
+
+	history={
+		
+		add_core_of = FIJ
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			13021 = {
+				
+			}
+			4387 = {
+				
+			}
+			7393 = {
+				
+			}
+			13020 = {
+				
+			}
+		}
+		victory_points = {
+			13021 1 
+		}
+
+	}
+
+	provinces={
+		4387 7393 13020 13021 13022 
+	}
+}

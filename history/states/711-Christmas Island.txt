@@ -1,0 +1,21 @@
+state={
+	id=711
+	name="STATE_711"
+	manpower=1625	
+	state_category = town
+	
+	history=
+	{
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			13005 = {
+				
+			}
+		}
+	}
+	
+	provinces={
+		13005 
+	}
+}

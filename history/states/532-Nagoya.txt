@@ -1,0 +1,37 @@
+
+state={
+	id=532
+	name="STATE_532" # Tokai
+	manpower = 6174000
+	state_category = town
+
+	history={
+		
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+		}
+		
+		victory_points = {
+			7087 3 
+		}
+		
+		victory_points = {
+			10125 25
+		}
+		1939.1.1 = {
+			buildings = {
+				
+				
+			}
+		}
+
+	}
+
+	provinces={
+		4069 4172 7087 7157 7187 10100 10125 12072 12097 
+	}
+}

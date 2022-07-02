@@ -1,0 +1,26 @@
+
+state={
+	id=310
+	name="STATE_310"
+	manpower = 47341
+
+	state_category = town
+
+	history={
+		
+		add_core_of = CAY
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			12885 = {
+				
+			}
+		}
+		victory_points = {
+			12885 1 
+		}
+	}
+
+	provinces={
+		4934 12885 
+	}
+}

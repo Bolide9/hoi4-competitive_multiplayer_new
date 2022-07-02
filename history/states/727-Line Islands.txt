@@ -1,0 +1,27 @@
+state={
+	id=727
+	name="STATE_727"
+	manpower=5367
+	state_category = small_island
+
+	history={
+		
+		add_core_of = HAW
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			13048 = {
+				
+			}
+			13049 = {
+				
+			}
+			13053 = {
+				
+			}
+		}
+	}
+	
+	provinces={
+		13048 13049 13053 
+	}
+}

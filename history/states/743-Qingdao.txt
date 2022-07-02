@@ -1,0 +1,35 @@
+state=
+{
+	id=743
+	name="STATE_743"
+	manpower = 385000
+	state_category = town
+	
+	
+	history=
+	{
+		
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			10000 5 
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			10000 = {
+				
+				
+				
+			}
+		}
+
+		1938.10.25 = {
+			controller = JAP
+		}
+	}
+	provinces={
+		10000
+	}
+}

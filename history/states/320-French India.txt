@@ -1,0 +1,21 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 286410
+
+	state_category = town
+
+	history={
+		
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			10149 = {
+				
+			}
+		}
+	}
+
+	provinces={ 10149 }
+}

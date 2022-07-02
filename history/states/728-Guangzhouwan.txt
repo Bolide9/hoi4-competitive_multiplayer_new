@@ -1,0 +1,23 @@
+state={
+	id=728
+	name="STATE_728"
+	manpower = 200000
+	
+	state_category = town
+	
+	history={
+		
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			11981 = {
+				
+			}
+		}
+	}
+	
+	provinces={
+		11981 
+	}
+}

@@ -1,0 +1,19 @@
+state=
+{
+	id=649
+	name="STATE_649"
+	state_category = town
+	manpower=11532
+	history=
+	{
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			5023 = {
+				
+			}
+		}
+		add_core_of = ECU
+	}
+	provinces= { 5023 }
+}

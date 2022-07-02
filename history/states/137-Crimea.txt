@@ -1,0 +1,51 @@
+
+state={
+	id=137
+	name="STATE_137"
+	manpower = 1000000
+	resources = {
+	steel = 40
+	aluminium = 20
+	chromium = 20
+	tungsten = 20
+	oil = 10
+	rubber = 10
+	}
+	state_category = town
+
+	history={
+		owner = SOV
+		victory_points = {
+			3686 20
+		}
+		victory_points = {
+			9680 1
+		}
+		victory_points = {
+			6704 1
+		}
+		buildings = {
+			infrastructure = 6 dockyard = 4
+			
+			
+			3686 ={
+				naval_base = 6
+				
+			}
+			9680 ={
+				
+				
+			}
+		}
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				
+			}
+		}
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+}

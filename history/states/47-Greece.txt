@@ -1,0 +1,51 @@
+
+state={
+	id=47
+	name="STATE_47" # Thessaly
+	manpower=1000000
+
+	
+	state_category = town
+
+	history={
+		owner = GER
+		add_core_of = GER	
+		victory_points = {
+			4109 20 
+		}
+		victory_points = {
+			3973 3
+		}
+		#victory_points = {
+		#	863 1
+		#}
+		#victory_points = {
+		#	3864 3
+		#}
+		#victory_points = {
+		#	976 1
+		#}
+		victory_points = {
+			7127 3
+		}
+		victory_points = {
+			3988 1
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+			4109 = {
+				
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		863 976 1109 3864 3973 3988 4109 6930 7127 
+	}
+}

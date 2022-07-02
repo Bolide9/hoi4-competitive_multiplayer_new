@@ -1,0 +1,30 @@
+state={
+	id=105
+	name="STATE_105"
+
+
+	history={
+		victory_points = {
+			9809 3
+		}
+		
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			9809 = {
+				
+
+			}
+
+		}
+		owner = GER add_core_of = GER
+
+	}
+
+	provinces={
+		937 6913 9809 9821 11858 
+	}
+	manpower=1000000
+	state_category=town
+}

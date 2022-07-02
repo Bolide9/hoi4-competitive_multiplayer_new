@@ -1,0 +1,44 @@
+
+state={
+	id=282
+	name="STATE_282" # Kanto
+	manpower = 13773000
+	
+	state_category = town
+	
+	resources={
+		aluminium=1 # was: 2
+	}
+
+	history={
+		
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+			
+			9998 = {
+				
+
+			}
+
+		}
+		victory_points = {
+			1182 50 
+		}
+		1939.1.1 = {
+			buildings = {
+				
+				
+				
+			}
+		}
+
+	}
+
+	provinces={
+		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 
+	}
+}

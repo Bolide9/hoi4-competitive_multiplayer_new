@@ -1,0 +1,32 @@
+state={
+	id=690
+	name="STATE_690"
+	manpower = 40000
+	
+	state_category = town
+
+	history={
+		add_core_of = BAH
+		
+		victory_points = {
+			10254 1
+		}
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			10254 = {
+				
+			}
+			4647 = {
+				
+			}
+			7245 = {
+				
+			}
+		}
+	}
+
+	provinces={
+		4647 7245 10254 
+	}
+	
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 94759
+	
+	state_category = town
+	history={
+		
+		
+		add_claim_by = JAP
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+		}
+	}
+
+	provinces={
+		855 1742 1755 
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=413
+	name="STATE_413"
+	manpower = 797356
+	resources={
+		oil=28 # was: 42
+	}
+	
+	state_category = town
+	
+
+	history={
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			5005 = {
+				
+			}
+		}
+		victory_points = {
+			7953 1 
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1922 5005 5089 7953 
+	}
+}

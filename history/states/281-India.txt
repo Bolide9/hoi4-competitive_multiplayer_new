@@ -1,0 +1,26 @@
+
+state={
+	id=281
+	name="STATE_281"
+	manpower=79300
+	
+	state_category = town
+
+	history={
+		
+		add_core_of = MLD
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			4967 = {
+				
+			}
+		}
+		victory_points = {
+			4967 1
+		}
+	}
+
+	provinces={
+		4967 
+	}
+}

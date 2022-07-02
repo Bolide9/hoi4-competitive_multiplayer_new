@@ -1,0 +1,25 @@
+
+state={
+	id=632
+	name="STATE_632"
+	manpower=150
+	state_category = town
+
+	history={
+		
+		add_core_of = GUM
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			13047 = {
+				
+			}
+		}
+		victory_points = {
+			13047 1 
+		}
+
+	}
+	provinces={
+		13047 
+	}
+}

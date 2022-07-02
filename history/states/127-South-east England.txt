@@ -1,0 +1,41 @@
+
+state={
+	id=127
+	name="STATE_127" # Sussex
+	manpower = 3193383
+	state_category = town
+
+	history={
+		
+		victory_points = { 3501 20 }
+		victory_points = { 9458 15 }
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+			
+			fuel_silo = 1
+			
+			radar_station = 1
+			
+			3501 = {
+				
+				
+			}
+			9458 = {
+				
+			}
+		}
+		add_core_of = ENG
+		1939.1.1 = {
+			buildings = {
+				
+				
+			}
+		}
+	}
+
+	provinces={
+		507 3501 6489 9458 11446 13070 
+	}
+}

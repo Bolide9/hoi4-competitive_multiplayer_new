@@ -1,0 +1,25 @@
+
+state={
+	id=83
+	name="STATE_83"
+	manpower = 1000000
+	
+	state_category = town
+
+	history={
+		
+		buildings = {
+			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			
+			
+		}
+		victory_points = {
+			6682 1 
+		}
+		owner = GER add_core_of = GER
+	}
+
+	provinces={
+		696 6682 6697 9640 
+	}
+}
