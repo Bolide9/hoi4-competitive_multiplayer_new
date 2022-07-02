@@ -7,18 +7,18 @@ state={
 		victory_points = {
 			11857 1 
 		}
-		owner = GER
+		owner=GER
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 
 		}
-
+		add_core_of=GER
 	}
 
 	provinces={
 		11832 11857 11868 
 	}
-	manpower=1000000
+	manpower=210000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
 }

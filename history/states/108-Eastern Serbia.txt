@@ -1,32 +1,27 @@
+
 state={
 	id=108
 	name="STATE_108"
-	resources = {
-	steel = 40
-	aluminium = 20
-	chromium = 20
-	tungsten = 20
-	oil = 10
-	rubber = 10
+	resources={
+		steel=3.000
 	}
 
 	history={
 		victory_points = {
-			9602 3
+			9602 3 
 		}
-		
+		owner=GER
 		buildings = {
-			infrastructure = 6 industrial_complex = 1 arms_factory = 1
+			infrastructure = 4
 
 		}
-		owner = GER add_core_of = GER
-		
-
+		add_core_of=GER
 	}
 
 	provinces={
-		630 3922 3939 6940 6953 6970 6998 9602 9756 9849 9874 9890 9906 11832 11857 11868 11887 
+		630 3922 3939 6953 6970 6998 9602 9756 9906 11887 
 	}
-	manpower=1000000
+	manpower=707000
+	buildings_max_level_factor=1.000
 	state_category=town
 }

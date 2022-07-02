@@ -4,6 +4,7 @@ state={
 	name="STATE_809"
 
 	history={
+		owner = SOV
 		victory_points = {
 			310 3 #Daugavpils
 		}
@@ -11,9 +12,11 @@ state={
 			222 1 #Rezekne
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
-		add_core_of = NAV
+		add_core_of = SOV
 
 	}
 
