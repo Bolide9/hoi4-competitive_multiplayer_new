@@ -11,7 +11,7 @@ state={
 			11127 1 #Rakvere
 		}
 		buildings = {
-			infrastructure = 3
+			
 		}
 		owner = SOV
 		add_core_of = SOV

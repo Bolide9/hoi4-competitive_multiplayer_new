@@ -8,7 +8,7 @@ state={
 			3152 5 
 		}
 		buildings = {
-			infrastructure = 3
+			
 		}
 		owner = SOV
 		add_core_of = SOV	

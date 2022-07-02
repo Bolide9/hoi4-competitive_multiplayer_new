@@ -11,7 +11,7 @@ state={
 			3255 1 #Jekabpils
 		}
 		buildings = {
-			infrastructure = 3
+			
 		}
 		owner = SOV
 		add_core_of = SOV

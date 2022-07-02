@@ -10,7 +10,7 @@ state={
 			11312 1 #Marijampole
 		}
 		buildings = {
-			infrastructure = 3
+			
 		}
 		owner = SOV
 		add_core_of = SOV

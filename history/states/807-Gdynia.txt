@@ -24,7 +24,7 @@ state={
 			279 1
 		}
 		buildings = {
-			infrastructure = 3
+			
 		}
 		owner = GER
 		add_core_of = GER

@@ -9,7 +9,7 @@ state = {
 			12465 1
 		}
 		buildings = {
-			infrastructure = 2
+			
 
 		}
 	}

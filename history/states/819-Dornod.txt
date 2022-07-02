@@ -7,7 +7,7 @@ state={
 
 	history={
 		buildings = {
-			infrastructure = 1
+			
 		}
 		victory_points = {
 			12557 1 #Choibalsan
