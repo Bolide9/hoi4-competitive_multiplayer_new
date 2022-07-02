@@ -20,14 +20,9 @@ state={
 		}
 		
 		buildings = {
-			infrastructure = 6 industrial_complex = 1 arms_factory = 1
-			
-			9805 = {
-				
-			}
+			infrastructure = 3
 		}
-		owner = GER
-		add_core_of = GER
+		add_core_of = NAV
 	}
 
 	provinces={
