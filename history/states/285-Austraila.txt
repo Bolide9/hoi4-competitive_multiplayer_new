@@ -35,7 +35,6 @@ state={
 		victory_points = {
 			7520 1 
 		}
-		add_core_of = AST
 	}
 
 	provinces={
