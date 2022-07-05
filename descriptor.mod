@@ -19,3 +19,4 @@ tags={
 }
 name="Competitive Multiplayer New"
 supported_version="1.11.12"
+remote_file_id="2830934233"
