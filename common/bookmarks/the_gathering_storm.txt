@@ -11,31 +11,14 @@ bookmarks = {
 			ideology = fascism
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
 			}
 			focuses = {
 			}
 		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
-			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
-			}
-			focuses = {
-			}
-		}
-	
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				home_of_revolution
 			}
 			focuses = {
 			}	
