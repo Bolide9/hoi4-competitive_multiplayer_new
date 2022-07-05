@@ -21,6 +21,8 @@ state = {
 		victory_points = {
 			9432 1
 		}
+		owner=SOV
+		add_core_of=SOV
 	}
 
 	provinces = {

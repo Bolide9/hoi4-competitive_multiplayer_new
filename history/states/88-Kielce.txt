@@ -4,7 +4,6 @@ state={
 
 
 	history={
-		
 		victory_points = {
 			9427 20 
 		}
@@ -12,15 +11,11 @@ state={
 			442 3 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			air_base = 5
-			
-			
-			
-
+			industrial_complex = 1 
+			arms_factory = 1
 		}
-		owner = GER add_core_of = GER
-
+		owner = GER 
+		add_core_of = GER
 	}
 
 	provinces={

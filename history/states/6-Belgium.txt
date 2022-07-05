@@ -4,18 +4,18 @@ state={
 	name="STATE_6" # Flanders
 	manpower = 1000000
 	resources = {
-	steel = 40
-	aluminium = 20
-	chromium = 20
+	steel = 89
+	aluminium = 24
+	chromium = 59
 	tungsten = 20
-	oil = 10
-	rubber = 10
+	oil = 33
+	rubber = 24
 	}
 	
 	state_category = town
 
 	history={
-				owner = GER
+		owner = GER
 		add_core_of = GER
 		victory_points = { 516 30 }
 		victory_points = { 6598 30 }
@@ -23,9 +23,8 @@ state={
 		victory_points = { 13068 1 }
 		victory_points = { 3576 1 }
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			 industrial_complex = 1 
+			 arms_factory = 1
 			
 			6560 = {
 				

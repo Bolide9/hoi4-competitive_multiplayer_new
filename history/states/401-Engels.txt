@@ -12,14 +12,15 @@ state={
 	}
 
 	history={
-		
 		buildings = {
 			
 		}
-		
 		victory_points = {
 			6502 1
 		}
+
+		owner=SOV
+		add_core_of=SOV
 	}
 
 	provinces = {
