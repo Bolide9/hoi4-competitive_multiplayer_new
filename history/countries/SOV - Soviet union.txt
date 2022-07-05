@@ -3,17 +3,15 @@
 oob = "SOV_1936"
 
 add_political_power = 1000
-army_experience = 500
-navy_experience = 100
+army_experience = 400
+navy_experience = 152
 air_experience = 100
 set_fuel_ratio = 0.8
-
 set_research_slots = 4
 set_convoys = 200
 set_stability = 1
 set_war_support = 1
 starting_train_buffer = 1
-
 
 # Starting tech
 set_technology = {
@@ -34,9 +32,6 @@ set_technology = {
 	CAS1 = 1
 	naval_bomber1 = 1
 	basic_train = 1
-	mobile_warfare = 1
-	trade_interdiction = 1
-	formation_flying = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
