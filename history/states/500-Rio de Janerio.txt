@@ -4,19 +4,19 @@ state={
 	name="STATE_500"
 	manpower = 6665500
 	
-	state_category = town
+	state_category = large_city
 	
 	history={
-		
+
 		add_core_of = BRA
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
-			
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 7
 			10980 = {
-				
+				naval_base = 7
 			}
 		}
 		victory_points = {
@@ -27,4 +27,6 @@ state={
 	provinces={
 		5172 8190 10980 12996 
 	}
+
+	local_supplies=0.0 
 }

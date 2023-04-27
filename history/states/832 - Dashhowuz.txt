@@ -3,16 +3,23 @@ state = {
 	name = "STATE_832"
 
 	history = {
+	
+
 		
 		victory_points = {
 			1493 1
 		}
 		
 		buildings = {
-			
+			infrastructure = 1
 			industrial_complex = 1
 
 		}
+		
+		add_core_of = SOV
+		add_core_of = TMS
+		add_core_of = KHI
+
 	}
 
 	provinces = {

@@ -6,14 +6,14 @@ state={
 	state_category = small_island
 	
 	history={
-		
+
 		victory_points = {
 			1751 3 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			1751 = {
-				
+				naval_base = 3
 			}
 		}
 		add_core_of = POR
@@ -22,4 +22,6 @@ state={
 	provinces={
 		1751 
 	}
+
+	local_supplies=0.0 
 }

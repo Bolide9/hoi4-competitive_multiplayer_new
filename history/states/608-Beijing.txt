@@ -4,18 +4,18 @@ state={
 	name="STATE_608"
 	manpower = 9648400
 	
-	state_category = town
+	state_category = large_city
 
 	history={
-		
+
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			air_base = 3
 			10068 = {
-				
+				naval_base = 2
 			}
 		}
 		victory_points = {
@@ -25,12 +25,11 @@ state={
 			10068 1 
 		}
 
-		1938.10.25 = {
-			controller = JAP
-		}
 	}
 
 	provinces={
 		1134 4137 4140 6828 9843 9969 10068 11761 12026 
 	}
+
+	local_supplies=1.0 
 }

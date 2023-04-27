@@ -4,6 +4,7 @@ state={
 	name="STATE_810"
 
 	history={
+		owner=SOV
 		victory_points = {
 			6222 3 #Jelgava
 		}
@@ -11,10 +12,18 @@ state={
 			3255 1 #Jekabpils
 		}
 		buildings = {
-			
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+			310 = {
+				bunker = 2
+
+			}
+
 		}
-		owner = SOV
-		add_core_of = SOV
+		add_core_of=SOV
+
 	}
 
 	provinces={

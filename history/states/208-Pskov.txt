@@ -2,17 +2,17 @@
 state={
 	id=208
 	name="STATE_208" # Luga
-	manpower = 1000000
+	manpower = 341819
 	
-	state_category = town
+	state_category = rural
 
 	history={
-		owner = SOV
+		owner=SOV
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 3 #was: 5
+			air_base = 3
 		}
-		add_core_of = SOV
+		add_core_of=SOV
 		victory_points = {
 			9098 1
 		}
@@ -21,4 +21,6 @@ state={
 	provinces={
 		104 126 181 3120 6139 6197 9097 9098 11032 11080 11139 11186 
 	}
+
+	local_supplies=0.0 
 }

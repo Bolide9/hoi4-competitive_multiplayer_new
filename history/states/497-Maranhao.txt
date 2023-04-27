@@ -4,20 +4,20 @@ state={
 	name="STATE_497"
 	manpower = 2950100
 	
-	state_category = town
+	state_category = rural
 	
 	resources={
 		rubber=23 # was: 30
 	}
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
 			12853 = {
-				
+				naval_base = 2
 			}
 		}
 		add_core_of = BRA
@@ -30,4 +30,6 @@ state={
 	provinces={
 		2150 2214 2228 5153 5204 5220 10874 10984 12853 12913 12933 12947 12999 
 	}
+
+	local_supplies=0.0 
 }

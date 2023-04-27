@@ -7,12 +7,12 @@ state={
 	state_category = town
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
 		}
 		victory_points = {
 			10837 10 
@@ -23,4 +23,6 @@ state={
 	provinces={
 		4580 7602 10385 10768 10837 
 	}
+
+	local_supplies=0.0 
 }

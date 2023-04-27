@@ -4,15 +4,15 @@ state=
 	name="STATE_101"
 	manpower = 18000
 	
-	state_category = town
+	state_category = wasteland
 	
 	history=
 	{
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 			12512 ={
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = DEN
@@ -20,4 +20,6 @@ state=
 	provinces=
 	{
 10245 10636 12512 13058 13066 	}
+
+	local_supplies=0.0 
 }

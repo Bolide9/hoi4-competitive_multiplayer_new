@@ -2,7 +2,7 @@
 state={
 	id=62
 	name="STATE_62"
-	manpower = 1000000
+	manpower = 1006221
 	
 	
 	state_category = town
@@ -11,21 +11,18 @@ state={
 		victory_points = {
 			9388 1
 		}
-		owner = GER
+		owner=GER
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 3
 			fuel_silo = 1
 		}
-		add_core_of = GER
+		add_core_of=GER
 
-		1939.1.1 = {
-			buildings = {
-				
-			}
-		}
 	}
 
 	provinces={
 		349 3207 3258 3312 3340 9388 
 	}
+
+	local_supplies=3.0 
 }

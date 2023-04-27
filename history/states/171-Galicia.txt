@@ -4,10 +4,10 @@ state={
 	name="STATE_171"
 	manpower = 2295085
 	
-	state_category = town
+	state_category = city
 
 	history={
-		
+
 		add_core_of = GLC
 		victory_points = {
 			758 5
@@ -16,12 +16,12 @@ state={
 			6734 3
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
+			infrastructure = 3 #was: 6
+			dockyard = 2
+			arms_factory = 1
+			air_base = 2
 			758 = {
-				
+				naval_base = 6
 			}
 		}
 		add_core_of = SPR
@@ -30,4 +30,6 @@ state={
 	provinces={
 		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840 
 	}
+
+	local_supplies=0.0 
 }

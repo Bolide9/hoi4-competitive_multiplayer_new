@@ -6,13 +6,13 @@ state=
 	manpower = 12100
 	history=
 	{
-		
+
 		add_core_of = FSM
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 2
+			air_base = 1
 			4357 = {
-				
+				naval_base = 1
 
 			}
 		}
@@ -24,4 +24,6 @@ state=
 	provinces={
 		4357 12103
 	}
+
+	local_supplies=0.0 
 }

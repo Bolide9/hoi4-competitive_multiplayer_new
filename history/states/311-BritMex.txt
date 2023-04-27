@@ -4,20 +4,22 @@ state=
 	name="STATE_311"
 	manpower = 51000
 	
-	state_category = town
+	state_category = pastoral
 	history=
 	{
 		add_core_of = BLZ
-		
+
 		victory_points = {
 			2077 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			2077 = {
-				
+				naval_base = 1
 			}
 		}
 	}
 	provinces= { 2077 }
+
+	local_supplies=0.0 
 }

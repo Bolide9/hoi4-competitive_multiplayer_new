@@ -1,29 +1,26 @@
 
-state={
-	id=256
-	name="STATE_256"
-	manpower=1000000
+state = {
+	id = 256
+	name = "STATE_256"
+	manpower = 786030 #Was 1572061 but was divided by 2 due to the state being split in half
 	
 	state_category = town
-	resources = { 
-		steel=2 
-		aluminium=2 
-		oil=2 
-		rubber=2
-		tungsten=2 
-		chromium=2
-	}
 
-	history={
-		buildings = { 
-			 
-			arms_factory = 1 
-			industrial_complex = 1 
-			air_base = 1 
+	history = {
+		victory_points = {
+			9259 1 
 		}
+
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_core_of = CHU
 	}
 
-	provinces={
-		3282 6253 6312 6357 9244 9259 9307 9373 11356 
+	provinces = {
+		 3282 6253 6312 6357 9244 9259 9307 9373 11356 
 	}
+
+	local_supplies = 0.0 
 }

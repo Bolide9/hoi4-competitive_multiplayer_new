@@ -1,14 +1,16 @@
 state={
 	id=70
 	name="STATE_70"
-	manpower = 1000000
+	manpower = 1230500
 	
-	state_category = town
+	state_category = city
 	
-
+	resources={
+		tungsten=1 # was: 2
+	}
 
 	history={
-		
+		owner=GER
 		victory_points = {
 			9692 10
 		}
@@ -16,21 +18,18 @@ state={
 			11539 5
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 3
 		}
-		owner = GER add_core_of = GER
+		add_core_of=GER
 
-		1939.3.14 = {
-			owner = SLO
-			controller = SLO
-			
-		}
 	}
 
 	provinces={
 		541 3484 3537 9539 9692 11522 11539 
 	}
+
+	local_supplies=3.0 
 }

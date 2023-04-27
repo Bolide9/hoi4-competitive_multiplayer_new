@@ -11,14 +11,14 @@ state={
 	
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			 
-			
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 1
 			13087 = {
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = COS
@@ -31,4 +31,6 @@ state={
 	provinces={
 		12878 13087 13092 
 	}
+
+	local_supplies=0.0 
 }

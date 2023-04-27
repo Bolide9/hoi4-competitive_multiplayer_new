@@ -4,19 +4,19 @@ state={
 	name="STATE_30"
 	manpower = 1388400
 
-	state_category = town
+	state_category = city
 
 	history={
-		
+
 		victory_points = {
 			11465 5
 		}
 		
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
 		}
 		add_core_of = FRA
 	}
@@ -24,4 +24,6 @@ state={
 	provinces={
 		503 527 3495 3509 3523 9478 9867 11463 11465 11613 11616 
 	}
+
+	local_supplies=0.0 
 }

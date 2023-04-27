@@ -4,18 +4,18 @@ state={
 	name="STATE_321"
 	manpower = 533952
 
-	state_category = town
+	state_category = enclave
 
 	history={
-		
+
 		add_core_of = RAJ
 		victory_points = {
 			1273 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 3 #was: 5
 			1273 ={
-				
+				naval_base = 1
 			}
 		}
 	}
@@ -23,4 +23,6 @@ state={
 	provinces={
 		1273 
 	}
+
+	local_supplies=0.0 
 }

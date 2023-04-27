@@ -3,13 +3,13 @@ state={
 	name="STATE_738"
 
 	history={
-		
+
 		add_core_of = INS
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 
 			4579 = {
-				
+				naval_base = 1
 
 			}
 
@@ -24,4 +24,6 @@ state={
 	manpower=36146
 	buildings_max_level_factor=1	
 	state_category="small_island"
+
+	local_supplies=0.0 
 }

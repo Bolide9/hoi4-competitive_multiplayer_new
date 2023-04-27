@@ -4,10 +4,10 @@ state={
 	name="STATE_138"
 	manpower = 1047701
 	
-	state_category = town
+	state_category = city
 
 	history={
-		
+
 		victory_points = {
 			9279 5 
 		}
@@ -15,16 +15,16 @@ state={
 			11215 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			dockyard = 1
 			11215 = {
-				
-				
+				naval_base = 5
+				coastal_bunker = 3
 			}
 			9279 = {
-				
-				
+				naval_base = 5
+				coastal_bunker = 1
 			}
 		}
 		add_core_of = SWE
@@ -33,4 +33,6 @@ state={
 	provinces={
 		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376 
 	}
+
+	local_supplies=0.0 
 }

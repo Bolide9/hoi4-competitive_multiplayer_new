@@ -1,4 +1,4 @@
-version="1.0.0"
+version="2.0.0"
 picture="thumbnail.png"
 tags={
 	"Alternative History"
@@ -11,12 +11,6 @@ tags={
 	"Ideologies"
 	"Map"
 	"Military"
-	"National Focuses"
-	"Sound"
-	"Technologies"
-	"Translation"
-	"Utilities"
 }
 name="Competitive Multiplayer New"
-supported_version="1.11.12"
-remote_file_id="2830934233"
+supported_version="1.12.12"

@@ -2,14 +2,16 @@
 state={
 	id=185
 	name="STATE_185"
-	manpower = 1000000
+	manpower = 760900
 	
-	state_category = town
+	state_category = rural
 	
-	history={
-		owner = GER
-		add_core_of = GER
+	resources={
+		chromium=14 # was: 20
+		steel = 14 # was: 20
+	}
 
+	history={
 		victory_points = {
 			10203 1
 		}
@@ -19,13 +21,21 @@ state={
 		victory_points = {
 			1205 1
 		}
-		
+		owner=GER
 		buildings = {
-			
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			9805 = {
+				naval_base = 1
+			}
 		}
+		add_core_of=GER
 	}
 
-	provinces={
+	provinces = {
 		841 1106 1205 3914 3980 9805 9837 9916 10203 11786 11895 12001 
 	}
+
+	local_supplies=9.0 
 }

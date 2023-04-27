@@ -2,19 +2,12 @@
 state={
 	id=206
 	name="STATE_206"
-	manpower =  1000000
+	manpower =  1163163
 	
-	state_category = town
-	resources = {
-	steel = 40
-	aluminium = 20
-	chromium = 20
-	tungsten = 20
-	oil = 10
-	rubber = 10
-	}
+	state_category = city
+
 	history={
-		owner = SOV
+		owner=SOV
 		victory_points = {
 			11370 20
 		}
@@ -22,20 +15,16 @@ state={
 			9289 5
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			air_base = 8
 		}
-		add_core_of = SOV
-		
-		1939.1.1 = {
-			buildings = {
-				
-			}
-		}
+		add_core_of=SOV
 	}
 
 	provinces={
 		216 294 342 3267 3378 6292 9289 11216 11322 11370 
 	}
+
+	local_supplies=5.0 
 }

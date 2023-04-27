@@ -5,10 +5,10 @@ state={
 	manpower = 1546300
 	
 	
-	state_category = town
+	state_category = large_town
 
 	history={
-		
+
 		victory_points = {
 			3671 10
 		}
@@ -16,19 +16,16 @@ state={
 			512 15
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 4
+			industrial_complex = 2
 
 		}
 		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
-				
-			}
-		}
 	}
 
 	provinces={
 		512 3493 3671 6518 6533 6688 9492 11611 11631 
 	}
+
+	local_supplies=15.0 
 }

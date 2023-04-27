@@ -4,15 +4,15 @@ state={
 	name="STATE_281"
 	manpower=79300
 	
-	state_category = town
+	state_category = enclave
 
 	history={
-		
+
 		add_core_of = MLD
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			4967 = {
-				
+				naval_base = 1
 			}
 		}
 		victory_points = {
@@ -23,4 +23,6 @@ state={
 	provinces={
 		4967 
 	}
+
+	local_supplies=0.0 
 }

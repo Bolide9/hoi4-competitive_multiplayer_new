@@ -5,7 +5,7 @@ state={
 	state_category = town
 
 	history={
-		
+
 		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC
@@ -15,27 +15,19 @@ state={
 		}
 		
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 1
+			air_base = 1
 			1070 = {
-				
+				naval_base = 2
 			}
 
 		}
 
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
-			}
-			controller = JAP
-		}
 	}
 
 	provinces={
 		994 1038 1070 4160 7135 11963 11990 
 	}
+
+	local_supplies=1.0 
 }

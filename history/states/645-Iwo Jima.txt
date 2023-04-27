@@ -6,13 +6,13 @@ state=
 	state_category = small_island
 	history=
 	{
-		
+
 		add_core_of = JAP
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 2
+			air_base = 1
 			13025 = {
-				
+				naval_base = 1
 
 			}
 		}
@@ -24,4 +24,6 @@ state=
 	provinces={
 		13025
 	}
+
+	local_supplies=0.0 
 }

@@ -9,10 +9,12 @@ state={
 		}
 		owner=GER
 		buildings = {
-			
+			infrastructure = 2
 
 		}
 		add_core_of=GER
+		add_claim_by = BUL
+
 	}
 
 	provinces={
@@ -21,4 +23,6 @@ state={
 	manpower=210000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+
+	local_supplies=0.0 
 }

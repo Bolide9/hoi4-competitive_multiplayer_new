@@ -3,20 +3,20 @@ state={
 	name="STATE_634"
 
 	history={
-		
+
 		add_core_of = SOL
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 			1269 = {
-				
+				naval_base = 2
 
 			}
 			4226 = {
-				
+				naval_base = 1
 
 			}
 			10234 = {
-				
+				naval_base = 1
 
 			}
 
@@ -36,4 +36,6 @@ state={
 	manpower=150000
 	buildings_max_level_factor=1
 	state_category="small_island"
+
+	local_supplies=0.0 
 }

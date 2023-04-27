@@ -3,12 +3,18 @@ state={
 	id=417
 	name="STATE_417" # Hamadan
 	manpower = 796396
-	state_category = town
+	state_category = rural
 
 	history={
-		
+
+		victory_points = {
+			8040 3 
+		}
+		victory_points = {
+			2065 1 
+		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 		}
 		add_core_of = PER
 	}
@@ -16,4 +22,6 @@ state={
 	provinces={
 		1982 2065 8040 8125 10922 
 	}
+
+	local_supplies=0.0 
 }

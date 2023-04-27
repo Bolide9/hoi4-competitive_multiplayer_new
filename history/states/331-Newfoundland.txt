@@ -4,15 +4,15 @@ state={
 	name="STATE_331"
 	manpower = 255060
 	
-	state_category = town
+	state_category = rural
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 2
+			industrial_complex = 1
 			12505 = {
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = CAN
@@ -21,4 +21,6 @@ state={
 	provinces={
 		7758 7788 12505 12680 12698 
 	}
+
+	local_supplies=0.0 
 }

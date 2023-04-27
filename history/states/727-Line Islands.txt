@@ -5,18 +5,18 @@ state={
 	state_category = small_island
 
 	history={
-		
+
 		add_core_of = HAW
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 			13048 = {
-				
+				naval_base = 1
 			}
 			13049 = {
-				
+				naval_base = 1
 			}
 			13053 = {
-				
+				naval_base = 1
 			}
 		}
 	}
@@ -24,4 +24,6 @@ state={
 	provinces={
 		13048 13049 13053 
 	}
+
+	local_supplies=0.0 
 }

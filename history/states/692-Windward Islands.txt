@@ -6,11 +6,11 @@ state={
 
 	history={
 		add_core_of = BAS
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			11350 = {
-				
+				naval_base = 1
 			}
 		}
 		victory_points = {
@@ -21,4 +21,6 @@ state={
 	provinces={
 		379 11106 11350 13009 
 	}
+
+	local_supplies=4.0 
 }

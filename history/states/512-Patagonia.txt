@@ -4,18 +4,18 @@ state={
 	name="STATE_512"
 	manpower = 226638
 	
-	state_category = town
+	state_category = rural
 	
 	resources={
 		oil=5 # was: 6
 	}
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			10953 = {
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = ARG
@@ -24,4 +24,6 @@ state={
 	provinces={
 		2149 2169 2199 5173 8161 8176 8192 10935 10953 10981 11005 11009 12306 12321 12349 12494 12946 12952 12982 
 	}
+
+	local_supplies=0.0 
 }

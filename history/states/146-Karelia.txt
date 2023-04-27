@@ -5,21 +5,21 @@ state={
 	state_category = town
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner=SOV
+		add_core_of=SOV
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
 
 			#Mannerheim Line
 			9100 = {
-				
+				bunker = 2
 			}
 			9105 = {
-				
+				bunker = 2
 			}
 			9206 = {
-				
+				coastal_bunker = 1
 			}
 		}
 		victory_points = {
@@ -32,5 +32,8 @@ state={
 	provinces={
 		2332 3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 
 	}
-	manpower=1000000
+	manpower=418635
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

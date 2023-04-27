@@ -1,10 +1,1 @@
 ﻿
-units= {
-
-}
-	
-
-instant_effect = {
-
-}
-

@@ -2,18 +2,20 @@ state=
 {
 	id=649
 	name="STATE_649"
-	state_category = town
+	state_category = tiny_island
 	manpower=11532
 	history=
 	{
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 			5023 = {
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = ECU
 	}
 	provinces= { 5023 }
+
+	local_supplies=0.0 
 }

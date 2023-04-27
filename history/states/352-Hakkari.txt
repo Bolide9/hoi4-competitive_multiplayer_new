@@ -18,7 +18,7 @@ state={
 			10497 1 
 		}
 		buildings = {
-			
+			infrastructure = 1
 		}
 		if = {
 			limit = {
@@ -41,4 +41,3 @@ state={
 
 	local_supplies=0.0 
 }
-

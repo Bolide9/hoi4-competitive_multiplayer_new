@@ -1,8 +1,1 @@
-﻿units= {
-
-}
-	
-
-instant_effect = {
-
-}
+﻿

@@ -3,13 +3,15 @@ state={
 	name="STATE_587"
 
 	history={
-		
-		
-		buildings = {
-			 industrial_complex = 1 arms_factory = 1
 
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 1
 		}
-		
+		victory_points = {
+			1517 1 
+		}
+		add_core_of = SOV
 
 	}
 
@@ -19,4 +21,6 @@ state={
 	manpower=245133
 	buildings_max_level_factor=1.000
 	state_category=rural
+
+	local_supplies=0.0 
 }

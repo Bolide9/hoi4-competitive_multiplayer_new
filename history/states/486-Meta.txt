@@ -4,12 +4,12 @@ state={
 	name="STATE_486"
 	manpower = 213160
 	
-	state_category = town
+	state_category = pastoral
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 		}
 		add_core_of = COL
 	}
@@ -17,4 +17,6 @@ state={
 	provinces={
 		1887 2007 5026 10792 12729 12770 12825 
 	}
+
+	local_supplies=0.0 
 }

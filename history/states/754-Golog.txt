@@ -6,9 +6,9 @@ state={
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category = rural
 	history={
-		
+
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
@@ -16,24 +16,12 @@ state={
 			12732 3 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
 
-		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
 		}
 	}
+
+	local_supplies=0.0 
 }

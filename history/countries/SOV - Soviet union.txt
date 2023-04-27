@@ -1,17 +1,60 @@
-﻿capital = 219
+capital = 219
 
-oob = "SOV_1936"
+set_oob = "SOV_1936"
 
+create_faction = Comintern
+add_to_faction = SOV
+
+#COUNTRY LEADER
+recruit_character = SOV_iosif_stalin
+
+set_party_name = {
+	ideology = communism
+	long_name = SOV_communism_party_russian_long
+	name = SOV_communism_party_russian
+}
+
+set_party_name = {
+	ideology = fascism
+	long_name = SOV_communism_party_russian_long
+	name = SOV_communism_party_russian
+}
+
+set_politics = {
+	ruling_party = fascism
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+}
+
+add_command_power = 100
 add_political_power = 1000
 army_experience = 400
 navy_experience = 152
 air_experience = 100
-set_fuel_ratio = 0.8
+set_fuel_ratio = 1
 set_research_slots = 4
-set_convoys = 200
+set_convoys = 400
 set_stability = 1
 set_war_support = 1
-starting_train_buffer = 1
+starting_train_buffer = 3.0
+
+set_party_name = {
+	ideology = fascism
+	long_name = SOV_communism_party_russian_long
+	name = SOV_communism_party_russian
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
 
 # Starting tech
 set_technology = {
@@ -24,29 +67,37 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
 	basic_train = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	gwtank_chassis = 1
-	basic_light_tank_chassis = 1
-	improved_light_tank_chassis = 1
-	basic_heavy_tank_chassis = 1
-	engine_tech_1 = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
-	basic_heavy_tank = 1
 }
-
-
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -65,7 +116,6 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "GER_1936_naval"
 }
 if = {
 	limit = {
@@ -91,13 +141,10 @@ if = {
 		basic_light_battery = 1
 		basic_medium_battery = 1
 		basic_heavy_battery = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
 		basic_depth_charges = 1
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
 	}
-	set_naval_oob = "GER_1936_naval_mtg"
 }
 if = {
 	limit = {
@@ -107,174 +154,39 @@ if = {
 		armored_car1 = 1
 	}
 }
-
-set_politics = {
-	ruling_party = fascism
-	last_election = "1933.7.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 0
-	fascism = 100
-	communism = 0
-}
-
-create_faction = Comintern
-add_to_faction = SOV
-
-
-add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			iw_large_airframe = 1
+		}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+		}
+	}
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	name = "SOV_iosif_stalin"
+	desc = "SOV_GATHERING_STORM_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
 	ideology = nazism
 	traits = {
-		dictator
-		emperor_showa
 	}
-}
-
-
-#COUNTRY LEADERS
-recruit_character = SOV_iosif_stalin
-recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	recruit_character = SOV_provisional_government # United Exiles
-	set_country_flag = vlasov_owner_flag
-}
-
-#POLITICAL ADVISORS
-recruit_character = SOV_mikhail_kalinin
-recruit_character = SOV_nikita_khrushchyov
-recruit_character = SOV_nikolay_voznesensky
-recruit_character = SOV_lazar_kaganovich
-recruit_character = SOV_genrikh_yagoda
-recruit_character = SOV_nikolay_yezhov
-recruit_character = SOV_lavrenty_beriya
-recruit_character = SOV_vsevolod_merkulov
-
-recruit_character = SOV_lev_trotsky
-recruit_character = SOV_ivan_smirnov
-recruit_character = SOV_ivar_smilga
-recruit_character = SOV_karl_radek
-recruit_character = SOV_yevgeny_preobrazhensky
-recruit_character = SOV_aleksandr_shlyapnikov
-recruit_character = SOV_nikolay_bukharin
-recruit_character = SOV_aleksey_rykov
-recruit_character = SOV_mikhail_tomsky
-recruit_character = SOV_grigory_sokolnikov
-recruit_character = SOV_grigory_zinovyev
-recruit_character = SOV_lev_kamenev
-recruit_character = SOV_martemyan_ryutin
-recruit_character = SOV_patriarch_sergy
-recruit_character = SOV_aleksandr_kerensky
-recruit_character = SOV_konstantin_rodzayevsky
-
-
-recruit_character = SOV_aleksandr_vasilevsky
-recruit_character = SOV_aleksandr_golovanov
-recruit_character = SOV_aleksandr_gorbatov
-recruit_character = SOV_aleksandr_novikov
-recruit_character = SOV_aleksandr_yegorov
-recruit_character = SOV_andrey_grechko
-recruit_character = SOV_andrey_vlasov
-recruit_character = SOV_andrey_yeryomenko
-recruit_character = SOV_arseny_golovko
-recruit_character = SOV_boris_shaposhnikov
-recruit_character = SOV_dmitry_lelyushenko
-recruit_character = SOV_filipp_golikov
-recruit_character = SOV_filipp_oktyabrsky
-
-recruit_character = SOV_georgy_zakharov
-recruit_character = SOV_georgy_zhukov
-recruit_character = SOV_gordey_levchenko
-recruit_character = SOV_grigory_kulik
-recruit_character = SOV_igor_kurchatov
-recruit_character = SOV_issa_pliyev
-recruit_character = SOV_ivan_chernyakhovsky
-recruit_character = SOV_ivan_fedyuninsky
-recruit_character = SOV_ivan_konev
-recruit_character = SOV_ivan_yumashev
-recruit_character = SOV_kirill_meretskov
-recruit_character = SOV_kirill_moskalenko
-recruit_character = SOV_kliment_voroshilov
-recruit_character = SOV_konstantin_rokossovsky
-recruit_character = SOV_konstantin_vershinin
-recruit_character = SOV_kuzma_galitsky
-recruit_character = SOV_leonid_govorov
-recruit_character = SOV_maksim_purkayev
-recruit_character = SOV_markian_popov
-recruit_character = SOV_maks_reyter
-recruit_character = SOV_mikhail_frinovsky
-
-recruit_character = SOV_mikhail_tukhachevsky
-recruit_character = SOV_nikandr_chibisov
-
-recruit_character = SOV_nikolay_berzarin
-recruit_character = SOV_nikolay_vatutin
-
-recruit_character = SOV_nikolay_kuznetsov
-
-recruit_character = SOV_pavel_rychagov
-recruit_character = SOV_pavel_zhigarev
-recruit_character = SOV_pyotr_smirnov
-recruit_character = SOV_rodion_malinovsky
-recruit_character = SOV_semyon_budyonny
-recruit_character = SOV_semyon_timoshenko
-recruit_character = SOV_sergey_khudyakov
-recruit_character = SOV_sergey_korolyov
-recruit_character = SOV_sergey_rudenko
-recruit_character = SOV_sergey_gorshkov
-recruit_character = SOV_stepan_krasovsky
-recruit_character = SOV_vasily_blyukher
-recruit_character = SOV_vasily_chuykov
-recruit_character = SOV_vasily_kuznetsov
-recruit_character = SOV_vladimir_kasatonov
-recruit_character = SOV_vladimir_tributs
-
-recruit_character = SOV_yakov_cherevichenko
-recruit_character = SOV_yakov_smushkevich
-
-recruit_character = SOV_vitaly_primakov
-#Not available at game start
-recruit_character = SOV_vasily_korzh
-recruit_character = SOV_sidor_kovpak
-recruit_character = SOV_lev_dovator
-recruit_character = SOV_pavel_rybalko
-
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	recruit_character = SOV_anastasy_vonsyatsky
-	# recruit_character = SOV_grigory_semyonov # starts as an advisor to Puyi
-	recruit_character = SOV_metropolitan_anastasy
-	recruit_character = SOV_metropolitan_nikolay
-	recruit_character = SOV_nikolay_ustryalov
-	recruit_character = SOV_aleksandr_kazembek
-	recruit_character = SOV_metropolitan_aleksy
-	recruit_character = SOV_metropolitan_meletius
-	recruit_character = SOV_aleksandr_prokofyev_seversky
-	recruit_character = SOV_vyacheslav_tkachyov
-	recruit_character = SOV_yan_nagursky
-	recruit_character = SOV_vasily_yanchenko
-	recruit_character = SOV_tsar_vladimir_kirillovich
-
-	recruit_character = SOV_pyotr_krasnov
-	recruit_character = SOV_konstantin_nechayev
-	recruit_character = SOV_aleksandr_rodzyanko
-	recruit_character = SOV_vladimir_kosmin
-	recruit_character = SOV_andrey_shkuro
-	recruit_character = SOV_anton_denikin
 }

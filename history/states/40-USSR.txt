@@ -4,18 +4,16 @@ state={
 	name="STATE_40" # Barnaul
 	manpower = 2107451
 	
-	state_category = town
+	state_category = large_town
 
 	history={
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 1
+			industrial_complex = 1
 		}
-		1939.1.1 = {
-			buildings = {
-				
-			}
-		}
+		add_core_of = SOV
+		add_core_of = ALT #Could be a claim too
 		victory_points = {
 			1794 1
 		}
@@ -24,4 +22,6 @@ state={
 	provinces={
 		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
 	}
+
+	local_supplies=5.0 
 }

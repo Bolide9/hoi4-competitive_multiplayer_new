@@ -3,7 +3,7 @@ state={
 	id=140
 	name="STATE_140"
 	manpower = 1282827
-	state_category = town
+	state_category = city
 	
 	resources={
 		steel=6 # was: 10
@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		
+
 		victory_points = {
 			11114 1 
 		}
@@ -19,14 +19,14 @@ state={
 			383 10 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
-			
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
 			383 = {
-				
-				
+				naval_base = 5
+				coastal_bunker = 5
 			}
 		}
 		add_core_of = SWE
@@ -36,4 +36,6 @@ state={
 	provinces={
 		69 147 171 295 383 3063 3128 3141 3286 3375 3386 6028 6195 6310 6331 6406 9054 9138 9218 11070 11114 13096 
 	}
+
+	local_supplies=0.0 
 }

@@ -7,11 +7,11 @@ state={
 	
 	history=
 	{
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			2188 = {
-				
+				naval_base = 1
 			}
 		}
 	}
@@ -19,4 +19,6 @@ state={
 	provinces={
 		2188 
 	}
+
+	local_supplies=0.0 
 }

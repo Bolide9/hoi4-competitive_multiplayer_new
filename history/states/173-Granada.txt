@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		
+
 		victory_points = {
 			9979 5
 		}
@@ -17,15 +17,15 @@ state={
 			1176 3
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+			air_base = 4
 			9979 = {
-				
+				naval_base = 2
 
 			}
 			12038 = {
-				
+				naval_base = 1
 
 			}
 
@@ -40,4 +40,6 @@ state={
 	manpower=1662292
 	buildings_max_level_factor=1.000
 	state_category=city
+
+	local_supplies=6.0 
 }

@@ -1,11 +1,13 @@
 state={
 	id=7
 	name="STATE_7"
+	resources={
+		steel=4.000
+	}
 
 	history={
-		
-		owner = GER
-		add_core_of = GER
+		owner=GER
+		add_core_of=GER
 		victory_points = {
 			391 40 
 		}
@@ -16,15 +18,17 @@ state={
 			9498 20 
 		}
 		buildings = {
-			 industrial_complex = 1 
-			 arms_factory = 1
-			
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
 			3314 = {
-				
+				naval_base = 5
 
 			}
 			9498 = {
-				
+				naval_base = 10
 
 			}
 
@@ -35,7 +39,9 @@ state={
 	provinces={
 		68 391 3211 3314 9498 
 	}
-	manpower=1000000
+	manpower=4123000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 
-	state_category=town
+	local_supplies=0.0 
 }

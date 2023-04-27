@@ -5,7 +5,7 @@ state={
 		chromium=20.000 #added due to portugal setup
 	}
 	history={
-		
+
 		victory_points = {
 			9869 1 
 		}
@@ -13,8 +13,8 @@ state={
 			924 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
 
 		}
 		add_core_of = POR
@@ -27,4 +27,6 @@ state={
 	manpower=729712
 	buildings_max_level_factor=1.000
 	state_category=rural
+
+	local_supplies=0.0 
 }

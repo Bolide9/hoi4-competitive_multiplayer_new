@@ -3,17 +3,19 @@ state= {
 	name="STATE_299"
 	manpower=2463
 	
-	state_category = town
+	state_category = enclave
 	
 	history= 	{
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 			12960 = {
-				
+				naval_base = 1
 			}
 		}
 		add_claim_by = ARG
 	}
 	provinces= { 12960 }
+
+	local_supplies=0.0 
 }

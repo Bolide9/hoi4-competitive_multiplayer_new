@@ -8,11 +8,11 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	history={
-		
+
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 
 		}
 		victory_points = {
@@ -21,14 +21,8 @@ state={
 		victory_points = {
 			7294 1
 		}
-		1939.1.1 = {
-			buildings = {
-				
-				 industrial_complex = 1 arms_factory = 1
-
-			}
-
-		}
 
 	}
+
+	local_supplies=1.0 
 }

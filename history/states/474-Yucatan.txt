@@ -4,18 +4,18 @@ state={
 	name="STATE_474"
 	manpower = 440289
 	
-	state_category = town
+	state_category = rural
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 2
+			air_base = 1
 			4904 = {
-				
+				naval_base = 2
 			}
 			4965 = {
-				
+				naval_base = 3
 			}
 		}
 		add_core_of = MEX
@@ -34,4 +34,6 @@ state={
 		4904 4965 12715 
 	}
 	
+
+	local_supplies=0.0 
 }

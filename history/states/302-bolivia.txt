@@ -6,15 +6,15 @@ state={
 		steel=2 # was: 2.000
 	}
 	
-	state_category = town
+	state_category = city
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
 
 		}
 		add_core_of = BOL
@@ -29,4 +29,6 @@ state={
 	}
 	manpower=2044500
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

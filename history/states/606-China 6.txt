@@ -6,27 +6,16 @@ state={
 	}
 
 	history={
-		
+
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 4
+			industrial_complex = 1
 
 		}
 		victory_points = {
 			7222 1 
-		}
-		1938.10.25 = {
-			controller = JAP
-			buildings = {
-				
-				 industrial_complex = 1 arms_factory = 1
-				
-				
-
-			}
-
 		}
 
 	}
@@ -37,4 +26,6 @@ state={
 	manpower=18265400
 	buildings_max_level_factor=1.000
 	state_category=town
+
+	local_supplies=2.0 
 }

@@ -2,14 +2,14 @@ state={
 	id=775
 	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
 	
-	state_category = town
+	state_category = wasteland
 	impassable = yes
 
 	history={
-		
+
 		add_core_of = CHA
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 0
 		}
 	}
 
@@ -18,4 +18,6 @@ state={
 	}
 	manpower=18744
 	buildings_max_level_factor=1.000
+
+	local_supplies=1.0 
 }

@@ -7,17 +7,19 @@ state={
 
 	history={
 		add_core_of = JAM
-		
+
 		victory_points = {
 			12304 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			12304 = {
-				
+				naval_base = 1
 			}
 		}
 	}
 	
 	provinces={ 12304 12477 }
+
+	local_supplies=0.0 
 }

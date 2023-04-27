@@ -3,19 +3,21 @@ state=
 	id=270
 	name="STATE_270"
 	manpower = 40
-	state_category = town
+	state_category = enclave
 	
 	history=
 	{
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 			1280 = {
-				
+				naval_base = 1
 			}
 		}
 	}
 	provinces={
 		1280
 	}
+
+	local_supplies=0.0 
 }

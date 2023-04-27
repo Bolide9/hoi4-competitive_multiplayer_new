@@ -4,20 +4,20 @@ state=
 	name="STATE_298"
 	manpower = 745000
 	
-	state_category = town
+	state_category = rural
 	resources={
 		rubber=6 # was: 7
 	}	
 	
 
 	history= {
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
 			7959 = {
-				
+				naval_base = 2
 			}
 		}
 		victory_points = {
@@ -28,4 +28,6 @@ state=
 	provinces={
 		7959 8006
 	}
+
+	local_supplies=0.0 
 }

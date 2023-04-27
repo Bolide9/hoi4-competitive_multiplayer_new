@@ -7,16 +7,16 @@ state={
 	state_category = town
 
 	history={
-		
+
 		
 		victory_points = {
 			1149 10 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 2
+			air_base = 6
 			1149 = {
-				
+				naval_base = 5
 			}
 		}
 		add_core_of = LBA
@@ -25,4 +25,6 @@ state={
 	provinces={
 		1118 1149 1189 4194 7066 7209 9980 12039 
 	}
+
+	local_supplies=0.0 
 }

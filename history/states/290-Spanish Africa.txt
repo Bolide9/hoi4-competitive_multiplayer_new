@@ -5,31 +5,40 @@ state={
 	manpower = 744000
 	
 	
-	state_category = town
+	state_category = rural
 	
 	resources={
 		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
 	}
 
 	history={
-		
+
 		add_core_of = MOR
+		add_core_of = RIF
 		victory_points = {
 			9945 3
 		}
+		victory_points = {
+			12100 2
+		}
+		victory_points = {
+			12087 1
+		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 2
+			air_base = 3
 			12100 = {
-				
+				naval_base = 3
 			}
 			9945 = {
-				
+				naval_base = 3
 			}
 		}
 	}
 
-	provinces={
+	provinces = {
 		4199 7215 9945 10113 12087 12100 
 	}
+
+	local_supplies = 0.0 
 }

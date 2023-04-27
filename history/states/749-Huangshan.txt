@@ -8,30 +8,18 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	history={
-		
+
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			12019 1
 		}
 		
-		1938.10.25 = {
-			controller = JAP
-			CHI = {
-				set_province_controller = 1125
-				set_province_controller = 7104
-				set_province_controller = 12019
-
-			}
-			buildings = {
-				 industrial_complex = 1 arms_factory = 1
-				
-			}
-
-		}
 
 	}
+
+	local_supplies=0.0 
 }

@@ -2,9 +2,9 @@
 state={
 	id=204
 	name="STATE_204" # Bobruysk
-	manpower = 1000000
+	manpower = 1041084
 	
-	state_category = town
+	state_category = rural
 
 	history={
 		victory_points = {
@@ -13,15 +13,16 @@ state={
 		victory_points = {
 			11313 1
 		}
-		owner = SOV
+		owner=SOV
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 3 #was: 5
 		}
-		add_core_of = SOV
-		
+		add_core_of=SOV
 	}
 
 	provinces={
 		304 331 360 386 3350 3759 6373 11313 
 	}
+
+	local_supplies=0.0 
 }

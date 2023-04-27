@@ -6,15 +6,15 @@ state={
 	state_category = small_island
 
 	history={
-		
+
 		add_core_of = FIJ
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			13056 = {
-				
+				naval_base = 1
 			}
 			13054 = {
-				
+				naval_base = 1
 			}
 		}
 
@@ -23,4 +23,6 @@ state={
 	provinces={
 		13054 13055 13056 13057 
 	}
+
+	local_supplies=0.0 
 }

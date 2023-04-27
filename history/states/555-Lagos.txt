@@ -4,16 +4,16 @@ state={
 	name="STATE_555" #Kuril Islands
 	manpower = 15000 
 	
-	state_category = town
+	state_category = tiny_island
 
 	history={
-		
+
 		#add_core_of = JAP
 		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			1399 = {
-				
+				naval_base = 3
 
 			}
 
@@ -24,4 +24,6 @@ state={
 	provinces={
 		1399 1515 13037 
 	}
+
+	local_supplies=0.0 
 }

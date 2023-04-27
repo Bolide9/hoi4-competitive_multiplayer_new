@@ -10,16 +10,16 @@ state={
 	state_category = town
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 4
 			12790 = {
-				
+				naval_base = 5
 			}
 			8056 = {
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = COL
@@ -35,4 +35,6 @@ state={
 	provinces={
 		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 
 	}
+
+	local_supplies=0.0 
 }

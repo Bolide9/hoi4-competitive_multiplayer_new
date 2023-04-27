@@ -4,6 +4,7 @@ state={
 	name="STATE_813"
 
 	history={
+		owner=SOV
 		victory_points = {
 			4640 1 #Narva
 		}
@@ -11,10 +12,15 @@ state={
 			11127 1 #Rakvere
 		}
 		buildings = {
-			
+			infrastructure = 3 #was: 5
+			4640 = {
+				naval_base = 1
+
+			}
+
 		}
-		owner = SOV
-		add_core_of = SOV
+		add_core_of=SOV
+
 	}
 
 	provinces={

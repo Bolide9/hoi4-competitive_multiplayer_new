@@ -3,18 +3,18 @@ state={
 	name="STATE_656"
 	manpower = 80000
 	
-	state_category = town
+	state_category = rural
 	
 	history={
 		add_core_of = KUW
-		
+
 		victory_points = {
 			8085 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			8085 = {
-				
+				naval_base = 4
 			}
 		}
 
@@ -22,4 +22,6 @@ state={
 	provinces={
 		8085
 	}
+
+	local_supplies=0.0 
 }

@@ -2,24 +2,23 @@
 state={
 	id=190
 	name="STATE_190"
-	manpower=1000000
 	
 	state_category = rural
-	resources = { 
-		steel=2 
-		aluminium=2 
-		oil=2 
-		rubber=2
-		tungsten=2 
-		chromium=2
-	}
 	
 	history={
+		victory_points = {
+			9262 3
+		}
+		victory_points = {
+			3296 1 #Ventspils
+		}
 		owner=SOV
-		buildings = { 
-			 
-			arms_factory = 1 
-			industrial_complex = 1 
+		buildings = {
+			infrastructure = 3 #was: 5
+			9262 = {
+				naval_base = 1
+			}
+			dockyard = 1
 		}
 		add_core_of=SOV
 	}
@@ -27,4 +26,9 @@ state={
 	provinces={
 		3194 3296 3319 6322 9262 11246 
 	}
+
+	local_supplies=5.0 
+	manpower=315500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

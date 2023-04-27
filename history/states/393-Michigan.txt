@@ -6,27 +6,20 @@ state={
 		oil=6 # was: 10.000
 	}
 
-	state_category = town
+	state_category = metropolis
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
-			
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			industrial_complex = 6
+			air_base = 4
 
 		}
 		add_core_of = USA
 		victory_points = {
 			6710 20 
-		}
-		1939.1.1 = {
-			buildings = {
-				
-
-			}
-
 		}
 
 	}
@@ -36,4 +29,6 @@ state={
 	}
 	manpower=4842323
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

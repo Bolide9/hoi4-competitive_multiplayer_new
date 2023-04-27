@@ -4,17 +4,26 @@ state={
 	name="STATE_421"
 	manpower = 780278
 	
-	state_category = town
+	state_category = rural
 
 	history={
-		
+
+		victory_points = {
+			4943 5
+		}
+		victory_points = {
+			5098 3
+		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 		}
 		add_core_of = PER
+		add_core_of = KUR
 	}
 
 	provinces={
 		829 4943 5050 5098 9816 10774 12773 
 	}
+
+	local_supplies=0.0 
 }

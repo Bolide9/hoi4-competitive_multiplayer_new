@@ -1,36 +1,30 @@
 
-state={
-	id=156
-	name="STATE_156"
-	manpower = 2966315
+state = {
+	id = 156
+	name = "STATE_156"
+	manpower = 1772000 # was 2966315 before Puglia was added
 	
 	state_category = town
-	history={
-		
+	history = {
+
 		victory_points = {
-			11837 15 
+			9990 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 2 #was: 5
+			dockyard = 1
 			fuel_silo = 1
-			
-			11837 = {
-				
-			}
-			11998 = {
-				
+			9990 = {
+				naval_base = 2
 			}
 		}
 		add_core_of = ITA
-		1939.1.1 = {
-			buildings = {
-				
-			}
-		}
+		add_core_of = TTS
 	}
 
-	provinces={
-		3901 6979 9784 9856 9990 10027 11837 11998 12066 12098 
+	provinces = {
+		3901 9990 10027 12066 12098 
 	}
+
+	local_supplies = 0.0 
 }

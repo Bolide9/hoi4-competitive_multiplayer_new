@@ -12,9 +12,9 @@ state={
 	}
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 		}
 		victory_points = {
 			3768 1 
@@ -26,4 +26,6 @@ state={
 	provinces={
 		762 780 3589 3768 6784 11713 
 	}
+
+	local_supplies=9.0 
 }

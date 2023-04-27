@@ -4,14 +4,14 @@ state={
 	name="STATE_490"
 	manpower = 70020
 	
-	state_category = town
+	state_category = pastoral
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
 		}
 		add_core_of = PRU
 	}
@@ -19,4 +19,6 @@ state={
 	provinces={
 		8149 10942 
 	}
+
+	local_supplies=6.0 
 }

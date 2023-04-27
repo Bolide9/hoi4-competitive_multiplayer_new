@@ -3,12 +3,15 @@ state={
 	name="STATE_675"
 	manpower = 122093
 	
-	state_category = town
+	state_category = wasteland
 
 	history={
-		
+
+		victory_points = {
+			12413 1 
+		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 		}
 		add_core_of = IRQ
 	}
@@ -16,4 +19,6 @@ state={
 	provinces={
 		1631 4951 10744 12413 12879 
 	}
+
+	local_supplies=0.0 
 }

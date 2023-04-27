@@ -3,19 +3,19 @@ state={
 	name="STATE_729"
 	manpower = 157805
 	
-	state_category = town
+	state_category = enclave
 	
 	history={
-		
+
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
 			4189 1 
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			4189 = {
-				
+				naval_base = 1
 			}
 		}
 	}
@@ -23,4 +23,6 @@ state={
 	provinces={
 		4189 
 	}
+
+	local_supplies=0.0 
 }

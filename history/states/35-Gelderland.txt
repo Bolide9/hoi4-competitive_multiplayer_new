@@ -3,12 +3,11 @@ state={
 	name="STATE_35"
 
 	history={
-		
-		owner = GER
-		add_core_of = GER
+		owner=GER
+		add_core_of=GER
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
+			infrastructure = 3
+			industrial_complex = 5
 
 		}
 		victory_points = {
@@ -26,7 +25,9 @@ state={
 	provinces={
 		480 3262 6496 6500 9431 11456 11562 
 	}
-	manpower=1000000
+	manpower=1449000
+	buildings_max_level_factor=1.000
+	state_category=city
 
-	state_category=town
+	local_supplies=0.0 
 }

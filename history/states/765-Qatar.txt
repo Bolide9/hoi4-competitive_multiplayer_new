@@ -3,18 +3,18 @@ state={
 	id=765
 	name="STATE_765"
 	manpower = 51600
-	state_category = town
+	state_category = pastoral
 
 	history={
 		add_core_of = QAT
-		
+
 		victory_points = {
 			8051 1
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 			8051 = {
-				
+				naval_base = 2
 			}
 		}
 	}
@@ -22,4 +22,6 @@ state={
 	provinces={
 		8051
 	}
+
+	local_supplies=0.0 
 }

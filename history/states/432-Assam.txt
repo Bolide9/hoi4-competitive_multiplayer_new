@@ -6,9 +6,9 @@ state={
 	}
 
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 
 		}
 
@@ -20,4 +20,6 @@ state={
 	manpower=8977100
 	buildings_max_level_factor=1.000
 	state_category=town
+
+	local_supplies=0.0 
 }

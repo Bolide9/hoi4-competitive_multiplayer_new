@@ -2,14 +2,14 @@ state={
 	id=548
 	name="STATE_548"
 
-	state_category = town
+	state_category = rural
 	resources={
 		rubber=3 # was: 4
 	}
 	history={
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 
 		}
 		add_core_of = UGA
@@ -23,4 +23,6 @@ state={
 	}
 	manpower=3515625
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

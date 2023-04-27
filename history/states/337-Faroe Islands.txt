@@ -4,18 +4,20 @@ state=
 	name="STATE_337"
 	manpower = 25900
 	
-	state_category = town
+	state_category = small_island
 	
 	history=
 	{
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			13003 = {
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = DEN
 	}
 	provinces= { 13003 }
+
+	local_supplies=0.0 
 }

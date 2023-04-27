@@ -10,17 +10,17 @@ state=
 	state_category = town
 	history=
 	{
-		
+
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
-			
-			 
-			
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 1
 			12865 = {
-				
+				naval_base = 1
 			}
 			8017 = {
-				
+				naval_base = 1
 			}
 		}
 		add_core_of = HON
@@ -32,4 +32,6 @@ state=
 	provinces={
 		2031 8017 12865
 	}
+
+	local_supplies=0.0 
 }

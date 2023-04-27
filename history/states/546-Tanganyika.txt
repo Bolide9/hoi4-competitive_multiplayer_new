@@ -2,19 +2,19 @@ state={
 	id=546
 	name="STATE_546"
 	
-	state_category = town
+	state_category = rural
 	resources={
 		rubber=2 # was: 2
 	}
 	history={
-		
+
 		victory_points = {
 			2196 1
 		}
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 2
 			2196 = {
-				
+				naval_base = 2
 
 			}
 
@@ -27,4 +27,6 @@ state={
 	}
 	manpower=5299000
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

@@ -5,24 +5,20 @@ state={
 		1010 4141 4325 4431 9939 10763 11972 
 	}
 	history={
-		
+
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 1
 
 		}
 		victory_points = {
 			1010 3
 		}
-		1939.1.1 = {
-			buildings = {
-				 industrial_complex = 1 arms_factory = 1
-				
-			}
-		}
 	}
 	manpower=1500000
 	state_category=pastoral
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

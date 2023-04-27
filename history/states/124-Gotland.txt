@@ -8,16 +8,18 @@ state=
 	
 	history=
 	{
-		
+
 		add_core_of = SWE
 		buildings = {
-			 industrial_complex = 1 arms_factory = 1
+			infrastructure = 3 #was: 6
 			408 = {
-				
+				naval_base = 1
 			}
 		}
 	}
 	provinces={
 		408 6258
 	}
+
+	local_supplies=0.0 
 }
