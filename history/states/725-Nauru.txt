@@ -6,7 +6,7 @@ state={
 
 	history={
 
-		add_core_of = FIJ
+
 		buildings = {
 			infrastructure = 2
 			13038 = {

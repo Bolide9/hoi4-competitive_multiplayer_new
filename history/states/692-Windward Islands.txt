@@ -5,7 +5,7 @@ state={
 	state_category = small_island
 
 	history={
-		add_core_of = BAS
+
 
 		buildings = {
 			infrastructure = 2

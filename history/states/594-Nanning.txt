@@ -12,9 +12,9 @@ state={
 
 	history={
 
-		add_core_of = GXC
-		add_core_of = CHI
-		add_core_of = PRC
+
+
+
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -23,6 +23,20 @@ state={
 			7137 10 
 		}
 
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				remove_core_of = GXC
+				CHI = { transfer_state = PREV }
+			}
+			JAP = {
+
+
+
+			} 			
+		}
 	}
 
 	provinces={

@@ -6,7 +6,7 @@ state={
 	state_category = pastoral
 
 	history={
-		add_core_of = QAT
+
 
 		victory_points = {
 			8051 1

@@ -6,7 +6,7 @@ state={
 
 	history={
 
-		add_core_of = SAM
+
 		buildings = {
 			infrastructure = 2
 			7290 = {

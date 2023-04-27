@@ -10,7 +10,7 @@ state={
 			2096 1 
 		}
 
-		add_core_of = SUD
+
 		buildings = {
 			infrastructure = 2
 

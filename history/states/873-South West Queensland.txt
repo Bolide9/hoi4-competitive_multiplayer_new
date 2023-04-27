@@ -9,7 +9,7 @@ state={
 			infrastructure = 1
 		}
 
-		add_core_of = AST
+
 	}
 	state_category = pastoral
 	manpower=10000

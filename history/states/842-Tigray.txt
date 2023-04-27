@@ -34,9 +34,14 @@ state={
 			13238 1 
 		}
 
-		add_core_of = ETH
-		add_core_of = TIG
+
+
 		add_claim_by = ERI
+		1936.6.1 = {
+
+
+
+		}
 
 	}
 

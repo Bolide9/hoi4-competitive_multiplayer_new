@@ -4,14 +4,14 @@ state={
 
 	history={
 
-		add_core_of = KAZ
+
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			1517 1 
 		}
-		add_core_of = SOV
+
 
 	}
 

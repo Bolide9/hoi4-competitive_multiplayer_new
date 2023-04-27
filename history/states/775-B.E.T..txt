@@ -7,7 +7,7 @@ state={
 
 	history={
 
-		add_core_of = CHA
+
 		buildings = {
 			infrastructure = 0
 		}

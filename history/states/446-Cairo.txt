@@ -25,7 +25,7 @@ state={
 			4073 3 
 		}
 		
-		add_core_of = EGY
+
 
 	}
 

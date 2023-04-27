@@ -28,8 +28,13 @@ state={
 			5097 1 
 		}
 
-		add_core_of = ETH
-		add_core_of = AFA
+
+
+		1936.6.1 = {
+
+
+
+		}
 
 	}
 
