@@ -199,6 +199,7 @@ const germanyOwnerStateIds = [
   805,
   807,
   848,
+  850,
   852,
   853,
 ];
