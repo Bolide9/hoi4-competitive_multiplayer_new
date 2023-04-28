@@ -10,7 +10,7 @@ state=
 		victory_points = {
 			11999 1
 		}
-		owner = ENG
+
 		buildings = {
 			infrastructure = 2
 		}
@@ -22,7 +22,7 @@ state=
 			11974 1
 		}
 
-		add_core_of = EGY
+
 
 	}
 	provinces={
