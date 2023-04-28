@@ -1,3 +1,7 @@
+/// Removing set_demilitarized_zone's for [sovietOwnerStateIds] and [germanyOwnerStateIds]
+/// removing controller, add_core_of and change owner's
+/// and removind delay actions example: 1939.1.1 { air_base = 1 }
+
 import 'dart:io';
 
 import 'constants.dart';
@@ -36,6 +40,8 @@ void main() async {
       );
     }
   }
+
+  print('Germany owner states count: ${germanyOwnerStateIds.length}\nSoviet owner states count: ${sovietOwnerStateIds.length}');
 }
 
 Future<void> _changeStateOwner({
