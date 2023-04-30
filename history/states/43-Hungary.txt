@@ -13,9 +13,9 @@ state={
 	history={
 		owner = GER
 		buildings = {
-			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 4
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 4
 		}
 		victory_points = {

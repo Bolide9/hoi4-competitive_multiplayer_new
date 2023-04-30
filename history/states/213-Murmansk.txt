@@ -18,11 +18,13 @@ state={
 			6181 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 			air_base = 2
 			3134 = {
 				naval_base = 4
-				coastal_bunker = 1
+
 			}
 		}
 

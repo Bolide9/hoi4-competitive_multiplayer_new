@@ -236,4 +236,12 @@ const germanyNavalsForRemove = [
   852,
 ];
 
+const germanyStateIdsForAddArms = [
+  64,
+];
+
+const sovietStateIdsForAddArms = [
+  219,
+];
+
 const pathToStates = "C:/Users/A/Documents/Paradox Interactive/Hearts of Iron IV/mod/Competitive Multiplayer New/history/states";

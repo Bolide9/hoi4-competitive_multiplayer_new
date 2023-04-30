@@ -14,10 +14,11 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 6
-			industrial_complex = 2
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 			6332 = {
-				bunker = 1
+
 
 			}
 			anti_air_building = 2

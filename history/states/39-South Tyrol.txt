@@ -16,8 +16,9 @@ state = {
 		}
 		owner = GER
 		buildings = {
-			infrastructure = 2 # was 3 before split
-			industrial_complex = 1 #Bolzano's industrial zone started in 1934-35 (Steel meels, Lancia...)
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 		}
 
 

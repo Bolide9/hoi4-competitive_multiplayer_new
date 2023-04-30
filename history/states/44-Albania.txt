@@ -26,15 +26,15 @@ state = {
 			6900 2
 		}
 		buildings = {
-			infrastructure = 2 
+			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 3
 			11767 = {
-				naval_base = 4
+
 			}
 			13255 = {
-				naval_base = 2
+
 			}
 
 		}

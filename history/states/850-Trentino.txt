@@ -12,7 +12,9 @@ state = {
 		}
 		owner = GER
 		buildings = {
-			infrastructure = 2 #was 3 before split
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 
 

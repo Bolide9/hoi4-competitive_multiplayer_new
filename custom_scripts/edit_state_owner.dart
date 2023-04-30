@@ -6,25 +6,18 @@ import 'dart:io';
 
 import 'constants.dart';
 
-const sovietOwner = '\t\towner = SOV';
-const germanyOwner = '\t\towner = GER';
+const _sovietOwner = '\t\towner = SOV';
+const _germanyOwner = '\t\towner = GER';
 
-const sovietCore = '\t\tadd_core_of = SOV';
-const germanyCore = '\t\tadd_core_of = GER';
+final _ownerRegexp = RegExp(r'\s*owner\s*=');
 
-final ownerRegexp = RegExp(r'\s*owner\s*=');
+final _coreOfRegexp = RegExp(r'\s*add_core_of\s*=');
 
-final coreOfRegexp = RegExp(r'\s*add_core_of\s*=');
+final _controllerRegexp = RegExp(r'\s*controller\s*=');
 
-final controllerRegexp = RegExp(r'\s*controller\s*=');
+final _delayedOwnerRegexp = RegExp(r'\s*\d{1,4}\.\d{1,2}\.\d{1,2}\s*=');
 
-final gerOwnerRegexp = RegExp(r'\s*owner\s*=\s*GER\s*');
-
-final sovOwnerRegexp = RegExp(r'\s*owner\s*=\s*SOV\s*');
-
-final delayedOwnerRegexp = RegExp(r'\s*\d{1,4}\.\d{1,2}\.\d{1,2}\s*=');
-
-void main() async {
+Future<void> main() async {
   final statesDir = Directory(pathToStates);
   final files = statesDir.listSync(recursive: true);
 
@@ -57,12 +50,11 @@ Future<void> _changeStateOwner({
     final line = lines[i].trim();
 
     if (germanyOwnerStateIds.contains(currentId) || sovietOwnerStateIds.contains(currentId)) {
-      if (ownerRegexp.hasMatch(line)) {
-        final currentOwner = line.replaceAll(ownerRegexp, '').trim();
-        final newOwner = germanyOwnerStateIds.contains(currentId) ? germanyOwner : sovietOwner;
-        print(newOwner.replaceAll(ownerRegexp, '').trim());
+      if (_ownerRegexp.hasMatch(line)) {
+        final currentOwner = line.replaceAll(_ownerRegexp, '').trim();
+        final newOwner = germanyOwnerStateIds.contains(currentId) ? _germanyOwner : _sovietOwner;
 
-        if (newOwner.replaceAll(ownerRegexp, '').trim() != currentOwner) {
+        if (newOwner.replaceAll(_ownerRegexp, '').trim() != currentOwner) {
           lines
             ..removeAt(i)
             ..insert(i, newOwner);
@@ -71,14 +63,14 @@ Future<void> _changeStateOwner({
         }
       }
 
-      if (coreOfRegexp.hasMatch(line) || controllerRegexp.hasMatch(line)) {
+      if (_coreOfRegexp.hasMatch(line) || _controllerRegexp.hasMatch(line)) {
         lines
           ..removeAt(i)
           ..insert(i, '');
         isEdited = true;
       }
 
-      if (delayedOwnerRegexp.hasMatch(line)) {
+      if (_delayedOwnerRegexp.hasMatch(line)) {
         final startIndex = i;
         final endIndex = _calculateDelayeds(lines, i);
         if (endIndex != null) {
@@ -90,7 +82,7 @@ Future<void> _changeStateOwner({
         }
       }
     } else {
-      if (coreOfRegexp.hasMatch(line) || controllerRegexp.hasMatch(line) || ownerRegexp.hasMatch(line)) {
+      if (_coreOfRegexp.hasMatch(line) || _controllerRegexp.hasMatch(line) || _ownerRegexp.hasMatch(line)) {
         lines
           ..removeAt(i)
           ..insert(i, '');
