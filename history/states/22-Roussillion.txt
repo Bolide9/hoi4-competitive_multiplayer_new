@@ -2,15 +2,19 @@
 state={
 	id=22
 	name="STATE_22" # Languedoc
-	manpower = 1691200
+	manpower = 1500000
 	
 	
 	state_category = town
 	
-	resources={
-		steel=70 # was: 136
-		aluminium=50 # was: 96
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

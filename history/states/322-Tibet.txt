@@ -1,9 +1,14 @@
 state={
 	id=322
 	name="STATE_322"
-	resources={
-		tungsten=2.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 
@@ -19,7 +24,7 @@ state={
 	provinces={
 		2010 2093 4994 5011 7926 8068 10755 10918 
 	}
-	manpower=1722000
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

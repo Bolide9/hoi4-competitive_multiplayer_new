@@ -1,12 +1,17 @@
 state={
 	id=890
 	name="STATE_890"
-	manpower = 710035
+	manpower = 1500000
 	state_category = pastoral
 	
-	resources = {
-		rubber=3.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	history={
 

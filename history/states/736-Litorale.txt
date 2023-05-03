@@ -14,6 +14,7 @@ state = {
 
 
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 
@@ -29,8 +30,16 @@ state = {
 	provinces = {
 		599 6626 11595 
 	}
-	manpower = 1038159 # was 1063159 before Istria was merged with Fiume (~25k pop added to new Istria state (Fiume + Pola)
+	manpower = 1500000
 	buildings_max_level_factor = 1.000
 
 	local_supplies = 0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

@@ -1,13 +1,18 @@
 state={
 	id=90
 	name="STATE_90" # Kielce
-	manpower = 1835700
+	manpower = 1500000
 	
 	state_category = town
 	
-	resources={
-		steel=8 # was: 12
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		victory_points = {
@@ -21,6 +26,7 @@ state={
 		#}
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1

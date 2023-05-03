@@ -2,7 +2,7 @@
 state = {
 	id=651
 	name = "STATE_651" # Ufa
-	manpower = 2552075
+	manpower = 1500000
 
 	state_category = city
 
@@ -28,4 +28,12 @@ state = {
 	}
 
 	local_supplies = 0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

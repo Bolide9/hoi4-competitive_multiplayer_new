@@ -2,13 +2,17 @@
 state={
 	id=234
 	name="STATE_234"
-	manpower = 2903371
+	manpower = 1500000
 	
 	state_category = city
-	resources={
-		tungsten=17 # was: 26
-		oil=12 # was: 18
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = SOV
@@ -22,6 +26,7 @@ state={
 			3734 5
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

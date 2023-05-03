@@ -4,9 +4,14 @@ state = {
 	
 	state_category = rural
 	
-	resources = {
-		chromium = 6 
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history = {
 
@@ -24,7 +29,7 @@ state = {
 	provinces = {
 		1879 4670 4685 7317 7708 10202 10235 10630 12616
 	}
-	manpower = 230210
+	manpower = 1500000
 	buildings_max_level_factor = 1.000
 
 	local_supplies = 0.0 

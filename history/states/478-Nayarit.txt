@@ -2,13 +2,18 @@
 state={
 	id=478
 	name="STATE_478" # Jalisco
-	manpower = 2470875
+	manpower = 1500000
 	
 	state_category = town
 	
-	resources={
-		tungsten=8 # was: 10
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

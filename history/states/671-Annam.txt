@@ -2,14 +2,18 @@
 state={
 	id=671
 	name="STATE_671"
-	manpower = 11528000
+	manpower = 1500000
 	
 	state_category = town
 	
-	resources={
-		chromium=6 # was: 8
-		tungsten=27 # was: 38
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 
 	history={

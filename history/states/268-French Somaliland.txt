@@ -1,7 +1,7 @@
 state={
 	id=268
 	name="STATE_268"
-	manpower = 85232
+	manpower = 1500000
 
 
 	state_category = enclave
@@ -28,4 +28,12 @@ state={
  	}
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

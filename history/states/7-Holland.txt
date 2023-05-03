@@ -1,9 +1,14 @@
 state={
 	id=7
 	name="STATE_7"
-	resources={
-		steel=4.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = GER
@@ -18,6 +23,7 @@ state={
 			9498 20 
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -39,7 +45,7 @@ state={
 	provinces={
 		68 391 3211 3314 9498 
 	}
-	manpower=4123000
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 

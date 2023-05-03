@@ -2,14 +2,18 @@
 state = {
 	id = 581
 	name = "STATE_581"
-	manpower = 48831
+	manpower = 1500000
 	
 	state_category = pastoral
 	
-	resources = {
-		chromium = 40 # was: 44
-		aluminium = 27 # was: 30
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history = {
 

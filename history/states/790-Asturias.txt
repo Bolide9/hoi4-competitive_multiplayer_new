@@ -24,9 +24,17 @@ state={
 	provinces={
 		738 3729 3744 6749 9703 9719 11688 11707 13218 
 	}
-	manpower=1197252
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

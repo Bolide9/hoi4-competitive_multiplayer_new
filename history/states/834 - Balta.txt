@@ -2,7 +2,7 @@
 state = {
 	id = 834
 	name = "STATE_834"
-	manpower = 183748
+	manpower = 1500000
 	
 	state_category = rural
 
@@ -15,6 +15,7 @@ state = {
 			741 1 
 		}
 		buildings = {
+			synthetic_refinery = 1
 			industrial_complex = 1
 			infrastructure = 2
 			arms_factory = 1
@@ -31,4 +32,12 @@ state = {
 	}
 
 	local_supplies = 6.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

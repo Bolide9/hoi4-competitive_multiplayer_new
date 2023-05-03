@@ -2,7 +2,7 @@
 state={
 	id=255
 	name="STATE_255"
-	manpower = 2342937
+	manpower = 1500000
 	
 	
 	state_category = town
@@ -11,6 +11,7 @@ state={
 	history={
 		owner = SOV
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -26,4 +27,12 @@ state={
 	}
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

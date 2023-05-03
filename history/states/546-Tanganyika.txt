@@ -3,9 +3,14 @@ state={
 	name="STATE_546"
 	
 	state_category = rural
-	resources={
-		rubber=2 # was: 2
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	history={
 
 		victory_points = {
@@ -25,7 +30,7 @@ state={
 	provinces={
 		2176 2196 2206 2281 2308 4171 5180 5224 8144 8182 8183 8201 8205 10845 10932 10988 11017 12911 12944 12967 
 	}
-	manpower=5299000
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

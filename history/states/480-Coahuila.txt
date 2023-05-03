@@ -2,14 +2,18 @@
 state={
 	id=480
 	name="STATE_480"
-	manpower = 827826
+	manpower = 1500000
 	
 	state_category = large_town
 	
-	resources={
-		oil=8
-		#steel=4 sent to Mexico City
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

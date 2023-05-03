@@ -2,13 +2,14 @@
 state={
 	id=227
 	name="STATE_227"
-	manpower = 3767336
+	manpower = 1500000
 	
 	state_category = city
 
 	history={
 		owner = SOV
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -25,4 +26,12 @@ state={
 	}
 
 	local_supplies=10.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

@@ -2,13 +2,18 @@
 state = {
 	id = 161
 	name = "STATE_161"
-	manpower = 3202401
+	manpower = 1500000
 	
 	state_category = large_city
 	
-	resources = {
-		aluminium=9 # was: 16
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history = {
 		owner = GER
@@ -22,6 +27,7 @@ state = {
 			9752 1
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

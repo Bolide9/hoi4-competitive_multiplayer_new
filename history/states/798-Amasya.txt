@@ -4,7 +4,7 @@ state={
 	provinces={
 		919 3807 3862 3964 11826 11844 
 	}
-	manpower = 531172
+	manpower = 1500000
 	
 	state_category = rural
 
@@ -23,4 +23,12 @@ state={
 	}
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

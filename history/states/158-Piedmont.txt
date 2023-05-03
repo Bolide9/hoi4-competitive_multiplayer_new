@@ -2,15 +2,17 @@
 state = {
 	id = 158
 	name = "STATE_158"
-	manpower = 4765476
+	manpower = 1500000
 	
 	state_category = metropolis
-	resources = {
-		steel = 24 # was: 40
-		aluminium = 16 # was: 28
-		chromium = 2 # was: 4
-		tungsten = 1 # was: 2
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history = {
 

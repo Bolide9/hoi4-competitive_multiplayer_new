@@ -2,14 +2,18 @@
 state={
 	id=275
 	name="STATE_275" # Transvaal
-	manpower = 3680363
+	manpower = 1500000
 	
 	state_category = city
 	
-	resources={
-		steel=5 # was: 8
-		chromium=53 # was: 80
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

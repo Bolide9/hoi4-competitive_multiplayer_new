@@ -1,7 +1,7 @@
 state={
 	id=892
 	name="STATE_892"
-	manpower = 960000
+	manpower = 1500000
 	state_category = pastoral
 
 	history={
@@ -22,4 +22,12 @@ state={
 
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

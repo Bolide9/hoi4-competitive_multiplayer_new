@@ -34,8 +34,8 @@ set_popularities = {
 
 add_command_power = 100
 add_political_power = 1000
-army_experience = 400
-navy_experience = 152
+army_experience = 300
+navy_experience = 150
 air_experience = 100
 set_fuel_ratio = 1
 set_research_slots = 4

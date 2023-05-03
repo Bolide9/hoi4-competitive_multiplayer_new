@@ -4,11 +4,15 @@ state={
 	provinces={
 		506 6464
 	}
-	manpower=1000000
-	resources={
-		steel=19 # was: 60
-		aluminium=7 # was: 20
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	state_category = city
 	history={
 		victory_points = {
@@ -16,6 +20,7 @@ state={
 		}
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

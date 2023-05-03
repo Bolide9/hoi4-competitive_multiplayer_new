@@ -2,13 +2,18 @@
 state={
 	id=226
 	name="STATE_226" # Dnipropertovsk
-	manpower = 2391047
+	manpower = 1500000
 	
 	state_category = town
 	
-	resources={
-		oil=4 # was: 6
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = SOV
@@ -19,6 +24,7 @@ state={
 			11561 1
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

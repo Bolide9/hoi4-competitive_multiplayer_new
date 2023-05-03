@@ -1,10 +1,14 @@
 state = {
 	id = 160
 	name = "STATE_160"
-	resources = {
-		steel=20 # was: 32.000
-		aluminium=11 # was: 18.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	state_category = large_city
 
@@ -21,6 +25,7 @@ state = {
 		}
 
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -38,7 +43,7 @@ state = {
 	provinces = {
 		603 628 3604 3657 6656 9582 9613 11584 
 	}
-	manpower = 3963151
+	manpower = 1500000
 	buildings_max_level_factor = 1.000
 
 	local_supplies = 5.0 

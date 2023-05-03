@@ -2,13 +2,14 @@
 state={
 	id=208
 	name="STATE_208" # Luga
-	manpower = 341819
+	manpower = 1500000
 	
 	state_category = rural
 
 	history={
 		owner = SOV
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -25,4 +26,12 @@ state={
 	}
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

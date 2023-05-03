@@ -1,9 +1,14 @@
 state={
 	id=317
 	name="STATE_317"
-	resources={
-		chromium=1 # was: 1
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	state_category = town
 
@@ -30,7 +35,7 @@ state={
 	provinces={
 		1988 2075 10728 12738 13139 13178 
 	}
-	manpower=683000
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

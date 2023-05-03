@@ -2,13 +2,18 @@
 state={
 	id=279
 	name="STATE_279" # Santiago
-	manpower = 3935146
+	manpower = 1500000
 	
 	state_category = large_city
 	
-	resources={
-		steel=16 # was: 24
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

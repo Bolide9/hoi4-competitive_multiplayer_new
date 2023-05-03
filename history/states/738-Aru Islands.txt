@@ -21,9 +21,17 @@ state={
 	provinces={
 		4579 
 	}
-	manpower=36146
+	manpower = 1500000
 	buildings_max_level_factor=1	
 	state_category="small_island"
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

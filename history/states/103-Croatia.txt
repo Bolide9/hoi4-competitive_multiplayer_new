@@ -2,7 +2,7 @@
 state={
 	id=103
 	name="STATE_103" # Dalmatia
-	manpower = 1431700 #TODO_Manu: Check if pop need to go down after Fiume split
+	manpower = 1500000
 
 	state_category = large_town
 
@@ -16,6 +16,7 @@ state={
 			3924 3
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -37,4 +38,12 @@ state={
 	}
 
 	local_supplies=4.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

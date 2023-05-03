@@ -1,11 +1,16 @@
 
 state = { 
 	id = 577 # Surgut
-	manpower = 29299
+	manpower = 1500000
 	name = "STATE_577"
-	resources = {
-		oil=13 # was: 14
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	state_category = pastoral
 

@@ -19,9 +19,17 @@ state = {
 	provinces = {
 		4744 5264 13062 13063 
 	}
-	manpower = 31182
+	manpower = 1500000
 	buildings_max_level_factor = 1
 	state_category = "pastoral"
 
 	local_supplies = 0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

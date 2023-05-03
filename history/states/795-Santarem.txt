@@ -1,9 +1,14 @@
 state={
 	id=795
 	name="STATE_795"
-	resources={
-		chromium=20.000 #added due to portugal setup
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	history={
 
 		victory_points = {
@@ -24,7 +29,7 @@ state={
 	provinces={
 		844 924 3846 3886 3926 6986 9869 11768 
 	}
-	manpower=729712
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=rural
 

@@ -2,14 +2,19 @@
 state={
 	id=433
 	name="STATE_433" # Rajasthan
-	manpower = 11786000
+	manpower = 1500000
 	
 	state_category = town
 	
 	
-	resources={
-		# tungsten=32 # was: 42
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		victory_points = {

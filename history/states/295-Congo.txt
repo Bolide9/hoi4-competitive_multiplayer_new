@@ -2,7 +2,7 @@
 state={
 	id=295
 	name="STATE_295"
-	manpower = 1947522
+	manpower = 1500000
 	state_category = rural
 
 	history={
@@ -32,4 +32,12 @@ state={
 	
 	buildings_max_level_factor=1.000
 	local_supplies=2.000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

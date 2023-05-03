@@ -12,6 +12,7 @@ state={
 			3255 1 #Jekabpils
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -29,7 +30,15 @@ state={
 	provinces={
 		222 310 319 341 3298 6459 7482 9275 11222 
 	}
-	manpower=600250
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=town
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

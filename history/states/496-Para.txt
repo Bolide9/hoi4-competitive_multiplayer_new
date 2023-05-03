@@ -2,13 +2,18 @@
 state={
 	id=496
 	name="STATE_496" # Minas Gerais
-	manpower = 4603600
+	manpower = 1500000
 	
 	state_category = town
 	
-	resources={
-		steel=3 # was: 4
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

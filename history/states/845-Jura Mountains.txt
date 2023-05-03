@@ -2,16 +2,22 @@
 state={
 	id=845
 	name="STATE_845"
-	manpower = 2067296
-	resources={
-		aluminium=18 # was: 28 #CarloTODO
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	state_category = large_town
 	history={
 		owner = GER
 		victory_points = { 9638 5 }
 		victory_points = { 6666 5 }
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

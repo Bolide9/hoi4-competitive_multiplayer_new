@@ -2,14 +2,19 @@
 state={
 	id=804
 	name="STATE_804"
-	manpower =547200
+	manpower = 1500000
 	
 	
 	state_category = town
 	
-	resources={
-		aluminium=7 # was: 10
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = GER
@@ -17,6 +22,7 @@ state={
 			9894 3
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1

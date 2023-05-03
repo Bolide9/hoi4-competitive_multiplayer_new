@@ -2,10 +2,15 @@
 state={
 	id=65
 	name="STATE_65"
-	manpower = 5592576
-	resources={
-		steel=53 # was: 90
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	state_category = metropolis
 
@@ -13,6 +18,7 @@ state={
 	history={
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

@@ -2,18 +2,23 @@
 state = {
 	id = 401
 	name = "STATE_401" #Balakovo
-	manpower = 309530
+	manpower = 1500000
 	
 	state_category = rural
 	
-	resources = {
-		steel = 10 # was: 40, then 24 but split
-		tungsten = 10 # was: 34, then 16 but split
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history = {
 		owner = SOV
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1

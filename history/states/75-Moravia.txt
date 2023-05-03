@@ -1,11 +1,15 @@
 state={
 	id=75
 	name="STATE_75"
-	manpower = 2598400
-	resources={
-		steel=4 # was: 6
-		oil = 2 # was: 4
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	state_category = city
 
@@ -18,6 +22,7 @@ state={
 			6562 5
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

@@ -263,6 +263,10 @@ Future<void> _modifyState({
               ..insert(
                 infrastructureFactoryLineIndex,
                 '\t\t\tinfrastructure = 2',
+              )
+              ..insert(
+                startIndex + 1,
+                '\t\t\tsynthetic_refinery = 1',
               );
           }
         }

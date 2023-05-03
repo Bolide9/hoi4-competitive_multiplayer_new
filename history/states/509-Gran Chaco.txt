@@ -2,14 +2,18 @@
 state={
 	id=509
 	name="STATE_509" # Chaco Australis
-	manpower = 704241
+	manpower = 1500000
 	
 	state_category = town
 	
-	resources={
-		tungsten=35 # was: 46
-		steel=6 # was: 8
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

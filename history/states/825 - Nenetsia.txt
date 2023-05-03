@@ -2,13 +2,18 @@
 state = {
 	id = 825
 	name = "STATE_825" # Nenets
-	manpower = 21795
+	manpower = 1500000
 	
 	state_category = rural
 	
-	resources = {
-		oil = 7 # was: 8
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history = {
 		victory_points = {

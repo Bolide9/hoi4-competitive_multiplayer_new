@@ -2,11 +2,16 @@
 state={
 	id=531
 	name="STATE_531" # Kansai
-	manpower = 11015000
+	manpower = 1500000
 	state_category = metropolis
-	resources={
-		aluminium=3 # was: 6
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

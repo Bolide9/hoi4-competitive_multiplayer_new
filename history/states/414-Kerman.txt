@@ -2,7 +2,7 @@
 state={
 	id=414
 	name="STATE_414"
-	manpower = 486013
+	manpower = 1500000
 	
 	state_category = wasteland
 
@@ -25,4 +25,12 @@ state={
 	}
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

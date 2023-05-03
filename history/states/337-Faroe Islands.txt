@@ -2,7 +2,7 @@ state=
 {
 	id=337
 	name="STATE_337"
-	manpower = 25900
+	manpower = 1500000
 	
 	state_category = small_island
 	
@@ -20,4 +20,12 @@ state=
 	provinces= { 13003 }
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

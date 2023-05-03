@@ -2,7 +2,7 @@
 state = {
 	id = 824
 	name = "STATE_824" # Yamalia
-	manpower = 21974
+	manpower = 1500000
 	
 	state_category = pastoral
 
@@ -20,4 +20,12 @@ state = {
 	}
 
 	local_supplies = 0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

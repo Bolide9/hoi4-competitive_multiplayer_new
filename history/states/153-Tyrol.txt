@@ -8,6 +8,7 @@ state={
 			673 5 
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -18,8 +19,16 @@ state={
 	provinces={
 		668 671 673 3675 6673 9633 9636 11618 11634 
 	}
-	manpower=1500986
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=12.000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

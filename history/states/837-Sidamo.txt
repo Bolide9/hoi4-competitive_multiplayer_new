@@ -1,10 +1,15 @@
 state = {
 	id = 837 # Sidamo (including Gammu Gofa)
 	name = "STATE_837"
-	manpower = 950000
-	resources = {
-		rubber = 3
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	state_category = rural
 

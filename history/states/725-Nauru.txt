@@ -1,7 +1,7 @@
 state={
 	id=725
 	name="STATE_725"
-	manpower=5785
+	manpower = 1500000
 	state_category = tiny_island
 
 	history={
@@ -23,4 +23,12 @@ state={
 	}
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

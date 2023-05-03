@@ -1,9 +1,14 @@
 state={
 	id=229
 	name="STATE_229"
-	resources={
-		oil=70 # was: 126.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = SOV
@@ -14,6 +19,7 @@ state={
 			11674 1 
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -28,7 +34,7 @@ state={
 	provinces={
 		1467 1536 1539 1610 4458 4473 4477 4545 4614 6763 7495 7661 9715 11645 11674 11704 12434 
 	}
-	manpower=2881049
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 

@@ -1,13 +1,19 @@
 state={
 	id=215
 	name="STATE_215"
-	resources={
-		steel=30 # was: 52.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = SOV
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -20,7 +26,7 @@ state={
 	provinces={
 		36 80 86 94 134 155 157 170 176 2998 3008 3067 3071 3078 3189 6021 6029 6090 6096 6098 6159 6175 9045 9055 9074 9119 9195 9198 11045 11054 11094 11096 11146 11175 11181 11212 13130 
 	}
-	manpower=214858
+	manpower = 1500000
 	
 	state_category = rural
 	buildings_max_level_factor=1.000

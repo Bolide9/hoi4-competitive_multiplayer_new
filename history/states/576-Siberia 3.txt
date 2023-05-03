@@ -2,7 +2,7 @@
 state={
 	id=576
 	name="STATE_576" # Yeniseisk
-	manpower = 117195
+	manpower = 1500000
 	
 	state_category = wasteland
 
@@ -19,4 +19,12 @@ state={
 	}
 
 	local_supplies=5.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

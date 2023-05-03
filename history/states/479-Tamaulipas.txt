@@ -2,14 +2,18 @@
 state={
 	id=479
 	name="STATE_479"
-	manpower = 1032988
+	manpower = 1500000
 	
 	state_category = town
 
-	resources={
-		oil=9
-		#steel=2 moved to Guerrero
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	history={
 

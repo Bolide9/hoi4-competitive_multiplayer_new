@@ -2,12 +2,17 @@
 state={
 	id=772
 	name="STATE_772" # Middle Congo (Brazzaville)
-	manpower = 746415
+	manpower = 1500000
 	
 	state_category = pastoral
-	resources={
-		rubber=1 # was: 1
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	history={
 
 

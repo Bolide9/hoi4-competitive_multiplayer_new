@@ -1,9 +1,14 @@
 state={
 	id=601
 	name="STATE_601"
-	resources={
-		oil=2.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 
@@ -30,7 +35,7 @@ state={
 	provinces={
 		4407 5018 5080 5102 8041 8059 10741 10856 
 	}
-	manpower=368200
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 

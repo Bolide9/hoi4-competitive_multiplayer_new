@@ -1,9 +1,14 @@
 state={
 	id=492
 	name="STATE_492"
-	resources={
-		tungsten=2 # was: 2.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	state_category = rural
 
@@ -25,7 +30,7 @@ state={
 	provinces={
 		2182 2210 2225 5202 12953 13086 13175 
 	}
-	manpower=1601278
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

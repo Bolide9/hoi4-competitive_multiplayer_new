@@ -2,9 +2,14 @@
 state={
 	id=189
 	name="STATE_189"
-	resources={
-		steel=2.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = SOV
@@ -15,6 +20,7 @@ state={
 			6314 1
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -33,7 +39,7 @@ state={
 	}
 
 	local_supplies=0.0 
-	manpower=697100
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

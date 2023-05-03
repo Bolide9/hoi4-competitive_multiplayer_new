@@ -2,15 +2,21 @@
 state={
 	id=151
 	name="STATE_151"
-	manpower = 598920
+	manpower = 1500000
 	state_category = rural
-	resources={
-		aluminium=15 # was: 24
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	history={
 		owner = GER
 		victory_points = { 658 1 }
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

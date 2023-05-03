@@ -9,6 +9,7 @@ state={
 		}
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -23,9 +24,17 @@ state={
 	provinces={
 		11832 11857 11868 
 	}
-	manpower=210000
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

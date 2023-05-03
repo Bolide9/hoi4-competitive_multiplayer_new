@@ -1,13 +1,14 @@
 state={
 	id=72
 	name="STATE_72"
-	manpower = 152000
+	manpower = 1500000
 	
 	state_category = rural
 	
 	history={
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -21,4 +22,12 @@ state={
 	}
 
 	local_supplies=1.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

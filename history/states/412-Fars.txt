@@ -2,10 +2,15 @@
 state={
 	id=412
 	name="STATE_412"
-	manpower = 918619
-	resources={
-		oil=10 # was: 12
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 
 	state_category = rural

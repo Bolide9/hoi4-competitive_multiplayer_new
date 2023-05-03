@@ -2,13 +2,18 @@
 state={
 	id=360
 	name="STATE_360"
-	manpower = 9631346
+	manpower = 1500000
 	
 	state_category = megalopolis
 	
-	resources={
-		steel=44 # was: 80
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 
 	history={

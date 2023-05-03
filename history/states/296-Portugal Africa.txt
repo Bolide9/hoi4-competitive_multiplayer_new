@@ -2,12 +2,17 @@
 state={
 	id=296
 	name="STATE_296" # Guinea-Bissau
-	manpower = 364900
+	manpower = 1500000
 	
 	state_category = enclave
-	resources={
-		rubber=1 # was: 1
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	history={
 
 

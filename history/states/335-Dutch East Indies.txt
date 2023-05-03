@@ -2,14 +2,18 @@
 state={
 	id=335
 	name="STATE_335" # Java
-	manpower = 41718200
+	manpower = 1500000
 	
 	state_category = city
 	
-	resources={
-		rubber=140 # was: 242
-		oil=10 # was: 16
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

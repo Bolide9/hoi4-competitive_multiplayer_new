@@ -20,9 +20,17 @@ state={
 	provinces={
 		1848 1873 3721 4218 4426 4790 4872 5119 12145 12636 12688 13163 
 	}
-	manpower=641071
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=rural
 
 	local_supplies=9.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

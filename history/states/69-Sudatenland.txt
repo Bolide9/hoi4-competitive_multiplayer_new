@@ -2,13 +2,18 @@ state=
 {
 	id=69
 	name="STATE_69"
-	manpower = 2830000
+	manpower = 1500000
 	
 	state_category = town
 	
-	resources={
-		steel=4 # was: 8
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	history={
 		victory_points = {
@@ -22,11 +27,15 @@ state=
 		}
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 			anti_air_building = 1
+
 		}
+
+
 	}
 	provinces=
 	{

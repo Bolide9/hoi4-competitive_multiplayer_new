@@ -2,12 +2,16 @@
 state={
 	id=213
 	name="STATE_213"
-	manpower = 275751
+	manpower = 1500000
 	state_category = rural
-	resources={
-		steel=14 # was: 28
-		chromium=12 # was: 24
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = SOV
@@ -18,6 +22,7 @@ state={
 			6181 1
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1

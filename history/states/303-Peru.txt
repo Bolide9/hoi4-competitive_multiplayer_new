@@ -2,10 +2,15 @@
 state={
 	id=303
 	name="STATE_303" # Lima
-	manpower = 3563249
-	resources={
-		oil=14 # was: 18
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	state_category = large_city
 

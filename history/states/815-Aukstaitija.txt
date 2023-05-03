@@ -9,6 +9,7 @@ state={
 			6229 1 #Panevezys
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -21,7 +22,15 @@ state={
 	provinces={
 		530 6229 6376 9246 9374 9438 11226 11498 
 	}
-	manpower=161450
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=town
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

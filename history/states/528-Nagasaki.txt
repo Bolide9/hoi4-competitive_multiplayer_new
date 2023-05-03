@@ -2,11 +2,16 @@
 state={
 	id=528
 	name="STATE_528" # Kyushu
-	manpower = 9069000
+	manpower = 1500000
 	state_category = large_city
-	resources={
-		chromium=52 # was: 88
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

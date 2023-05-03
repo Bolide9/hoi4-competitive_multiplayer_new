@@ -1,9 +1,14 @@
 state={
 	id=357
 	name="STATE_357"
-	resources={
-		steel=12 # was: 20.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	state_category = metropolis
 
@@ -42,7 +47,7 @@ state={
 	provinces={
 		715 718 733 905 908 1282 1338 1619 3710 3712 3715 3732 3906 4287 4445 6719 6732 6909 7462 7629 9675 9832 9847 9850  10247 10318 10481 11830 12202 12221 12459 13158 
 	}
-	manpower=8404713
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

@@ -2,10 +2,15 @@
 state={
 	id=411
 	name="STATE_411" # Isfahan
-	manpower = 885272
-	resources={
-		oil=12 # was: 14
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	state_category = rural
 	
 

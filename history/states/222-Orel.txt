@@ -2,14 +2,18 @@
 state={
 	id=222
 	name="STATE_222"
-	manpower = 1218607
+	manpower = 1500000
 	
 	state_category = rural
 	
-	resources={
-		steel=40 # was: 76
-		chromium=8 # was: 12
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		owner = SOV
@@ -17,6 +21,7 @@ state={
 			9355 10
 		}
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

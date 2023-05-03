@@ -2,7 +2,7 @@
 state = {
 	id = 849
 	name = "STATE_849"
-	manpower = 2642000 
+	manpower = 1500000
 	state_category = city
 	history = {
 
@@ -43,4 +43,12 @@ state = {
 		883	6843 6939 6980 6979 9784 11837 11998
 	}
 	local_supplies = 0.000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

@@ -2,11 +2,16 @@
 state={
 	id=461
 	name="STATE_461"
-	resources={
-		chromium=12.000 #added due to portugal setup
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
 
-	manpower = 3197719
+
+	manpower = 1500000
 	
 	state_category = rural
 	

@@ -3,9 +3,14 @@ state={
 	name="STATE_768" # Rwanda
 	
 	state_category = pastoral
-	resources = {
-		tungsten = 3
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 
@@ -22,7 +27,7 @@ state={
 	provinces={
 		9962
 	}
-	manpower=1716564
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 
 	local_supplies=1.0 

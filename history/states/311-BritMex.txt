@@ -2,7 +2,7 @@ state=
 {
 	id=311
 	name="STATE_311"
-	manpower = 51000
+	manpower = 1500000
 	
 	state_category = pastoral
 	history=
@@ -22,4 +22,12 @@ state=
 	provinces= { 2077 }
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

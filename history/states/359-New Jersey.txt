@@ -2,7 +2,7 @@
 state={
 	id=359
 	name="STATE_359"
-	manpower = 4041332
+	manpower = 1500000
 	
 	state_category = large_city
 
@@ -26,4 +26,12 @@ state={
 	
 
 	local_supplies=15.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

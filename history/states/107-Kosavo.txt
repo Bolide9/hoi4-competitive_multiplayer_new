@@ -6,6 +6,7 @@ state={
 	history={
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
@@ -23,9 +24,17 @@ state={
 	provinces={
 		797 3609 3956 3984 6634 9599 11583 11586 
 	}
-	manpower=1279121
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=large_city
 
 	local_supplies=4.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

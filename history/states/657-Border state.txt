@@ -2,10 +2,15 @@
 state={
 	id = 657
 	name = "STATE_657" # Birobidzhan
-	manpower = 308380
-	resources = {
-		steel=18 # was: 24
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 
 	state_category = pastoral

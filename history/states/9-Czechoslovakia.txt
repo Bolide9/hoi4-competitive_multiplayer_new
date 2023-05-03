@@ -1,10 +1,15 @@
 state={
 	id=9
 	name="STATE_9"
-	manpower = 4492600
-	resources={
-		steel=5 # was: 8
-	}
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	
 	state_category = large_city
 	
@@ -15,6 +20,7 @@ state={
 		victory_points = { 9569 5 }
 		#victory_points = { 9541 3 }
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

@@ -1,13 +1,19 @@
 state = {
 	id = 233
 	name = "STATE_233"
-	resources = {
-		chromium = 18 # was: 46.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history = {
 		owner = SOV
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
@@ -22,7 +28,7 @@ state = {
 	provinces = {
 		  3698 6692 6721 9649 9663 9674 11664 
 	}
-	manpower = 387990
+	manpower = 1500000
 	buildings_max_level_factor = 1.000
 	state_category = rural
 

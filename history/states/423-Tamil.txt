@@ -2,13 +2,18 @@
 state={
 	id=423
 	name="STATE_423" # Madurai
-	manpower = 29147500
+	manpower = 1500000
 	
 	state_category = rural
 	
-	resources={
-		rubber=19 # was: 28
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

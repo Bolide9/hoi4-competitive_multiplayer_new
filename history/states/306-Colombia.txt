@@ -2,7 +2,7 @@
 state={
 	id=306
 	name="STATE_306" # Cundinamarca
-	manpower = 4953049
+	manpower = 1500000
 	
 	state_category = city
 	
@@ -26,4 +26,12 @@ state={
 	}
 
 	local_supplies=4.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

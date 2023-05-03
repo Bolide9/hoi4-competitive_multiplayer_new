@@ -2,13 +2,17 @@
 state={
 	id=141
 	name="STATE_141" # Svealand
-	manpower = 1488181
+	manpower = 1500000
 	state_category = city
 	
-	resources={
-		steel=24 # was: 40
-		aluminium=2 # was: 4
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

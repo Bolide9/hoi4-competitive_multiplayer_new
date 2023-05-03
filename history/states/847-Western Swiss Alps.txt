@@ -2,13 +2,20 @@
 state={
 	id=847
 	name="STATE_847"
-	manpower = 178429
+	manpower = 1500000
 	state_category = pastoral
-	resources={
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 	history={
 		owner = GER
 		buildings = {
+			synthetic_refinery = 1
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1

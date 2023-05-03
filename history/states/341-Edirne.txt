@@ -2,10 +2,15 @@
 state= {
 	id=341
 	name="STATE_341"
-	manpower = 363947
-	resources={
+	manpower = 1500000
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
 
-	}
 	
 	state_category = town
 
@@ -14,24 +19,7 @@ state= {
 		victory_points = {
 			11842 5
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			849 = {
-				naval_base = 3
-				coastal_bunker = 2
-			}
-		}
-
-
-		1936.1.1.1 = { 
-			if = {
-				limit = { has_dlc = "Battle for the Bosporus" }
-			}
-		}
-
-		1936.11.9.1 = {
-		}
+	
 	}
 	provinces=
 	{

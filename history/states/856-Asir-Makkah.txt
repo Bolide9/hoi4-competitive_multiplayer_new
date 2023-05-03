@@ -18,9 +18,17 @@ state={
 			12883 1 
 		}
 	}
-	manpower=500000
+	manpower = 1500000
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
 
 }

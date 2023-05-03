@@ -2,7 +2,7 @@
 state={
 	id=609
 	name="STATE_609" # East Hebei
-	manpower = 6400000
+	manpower = 1500000
 	
 	state_category = town
 
@@ -26,4 +26,12 @@ state={
 	}
 
 	local_supplies=0.0 
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 }

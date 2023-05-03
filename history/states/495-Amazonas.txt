@@ -2,13 +2,18 @@
 state={
 	id=495
 	name="STATE_495"
-	manpower = 979900
+	manpower = 1500000
 	
 	state_category = pastoral
 	
-	resources={
-		aluminium=4 # was: 4
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

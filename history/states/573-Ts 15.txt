@@ -2,12 +2,17 @@
 state={
 	id=573
 	name="STATE_573" # Zlatoust
-	manpower = 556677
+	manpower = 1500000
 	
 	state_category = pastoral
-	resources={
-		chromium=23 # was: 32
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 		victory_points = {

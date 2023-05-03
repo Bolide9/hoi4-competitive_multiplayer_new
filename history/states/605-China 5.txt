@@ -1,9 +1,14 @@
 state={
 	id=605
 	name="STATE_605"
-	resources={
-		steel=14.000
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 
@@ -37,7 +42,7 @@ state={
 	provinces={
 		1367 1395 1893 2030 2091 4925 5048 6999 7240 7256 8026 10132 10144 11865 12274 12705 12767 
 	}
-	manpower=52963300
+	manpower = 1500000
 	buildings_max_level_factor=1.000
 	state_category=city
 

@@ -2,12 +2,17 @@
 state={
 	id=434
 	name="STATE_434"
-	manpower = 200000
+	manpower = 1500000
 	
 	state_category = wasteland
-	resources={
-		# tungsten=49 # was: 54
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 

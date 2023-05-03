@@ -2,12 +2,17 @@
 state={
 	id=459
 	name="STATE_459" # Algiers
-	manpower = 3089944
+	manpower = 1500000
 	state_category = town
 	
-	resources={
-		steel=26 # was: 36
-	}
+		resources={
+				 oil=20
+				 steel=20
+				 tungsten=20
+				 chromium=20
+				 aluminium=20
+		}
+
 
 	history={
 
