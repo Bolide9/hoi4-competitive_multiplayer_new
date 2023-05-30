@@ -18,5 +18,5 @@ tags={
 	"Utilities"
 }
 name="Competitive Multiplayer New"
-supported_version="1.11.12"
+supported_version="1.12.13"
 remote_file_id="2830934233"
